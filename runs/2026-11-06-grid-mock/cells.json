@@ -1,0 +1,46 @@
+[
+  {
+    "topology": "chain",
+    "pressure": 0.5,
+    "discoverability": 0.2,
+    "backend": "mock",
+    "governed": false,
+    "flip_rate": 1.0,
+    "mean_top1": 0.107,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 4
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.5,
+    "discoverability": 0.2,
+    "backend": "mock",
+    "governed": false,
+    "flip_rate": 0.0,
+    "mean_top1": 0.097,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "none",
+    "pressure": 0.5,
+    "discoverability": 0.0,
+    "backend": "mock",
+    "governed": false,
+    "flip_rate": 0.0,
+    "mean_top1": 0.0,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "star",
+    "pressure": 0.5,
+    "discoverability": 0.2,
+    "backend": "mock",
+    "governed": false,
+    "flip_rate": 1.0,
+    "mean_top1": 0.29,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 5
+  }
+]

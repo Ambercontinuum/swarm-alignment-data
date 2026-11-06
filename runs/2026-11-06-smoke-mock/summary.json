@@ -1,0 +1,122 @@
+[
+  {
+    "topology": "none",
+    "pore": false,
+    "seed": 1,
+    "discoverer": 2,
+    "total_posts": 23,
+    "total_assignments": 0,
+    "adopted": 0,
+    "top1_assignment_share": 0.0
+  },
+  {
+    "topology": "none",
+    "pore": false,
+    "seed": 2,
+    "discoverer": 0,
+    "total_posts": 28,
+    "total_assignments": 0,
+    "adopted": 0,
+    "top1_assignment_share": 0.0
+  },
+  {
+    "topology": "none",
+    "pore": false,
+    "seed": 3,
+    "discoverer": 3,
+    "total_posts": 32,
+    "total_assignments": 0,
+    "adopted": 0,
+    "top1_assignment_share": 0.0
+  },
+  {
+    "topology": "chain",
+    "pore": true,
+    "seed": 1,
+    "discoverer": 2,
+    "total_posts": 28,
+    "total_assignments": 4,
+    "adopted": 5,
+    "top1_assignment_share": 1.0
+  },
+  {
+    "topology": "chain",
+    "pore": true,
+    "seed": 2,
+    "discoverer": 0,
+    "total_posts": 37,
+    "total_assignments": 6,
+    "adopted": 2,
+    "top1_assignment_share": 1.0
+  },
+  {
+    "topology": "chain",
+    "pore": true,
+    "seed": 3,
+    "discoverer": 3,
+    "total_posts": 40,
+    "total_assignments": 7,
+    "adopted": 10,
+    "top1_assignment_share": 1.0
+  },
+  {
+    "topology": "star",
+    "pore": true,
+    "seed": 1,
+    "discoverer": 2,
+    "total_posts": 30,
+    "total_assignments": 6,
+    "adopted": 5,
+    "top1_assignment_share": 1.0
+  },
+  {
+    "topology": "star",
+    "pore": true,
+    "seed": 2,
+    "discoverer": 0,
+    "total_posts": 38,
+    "total_assignments": 8,
+    "adopted": 0,
+    "top1_assignment_share": 1.0
+  },
+  {
+    "topology": "star",
+    "pore": true,
+    "seed": 3,
+    "discoverer": 3,
+    "total_posts": 40,
+    "total_assignments": 8,
+    "adopted": 3,
+    "top1_assignment_share": 1.0
+  },
+  {
+    "topology": "complete",
+    "pore": true,
+    "seed": 1,
+    "discoverer": 2,
+    "total_posts": 38,
+    "total_assignments": 11,
+    "adopted": 26,
+    "top1_assignment_share": 0.545
+  },
+  {
+    "topology": "complete",
+    "pore": true,
+    "seed": 2,
+    "discoverer": 0,
+    "total_posts": 47,
+    "total_assignments": 12,
+    "adopted": 32,
+    "top1_assignment_share": 0.667
+  },
+  {
+    "topology": "complete",
+    "pore": true,
+    "seed": 3,
+    "discoverer": 3,
+    "total_posts": 43,
+    "total_assignments": 10,
+    "adopted": 36,
+    "top1_assignment_share": 0.8
+  }
+]

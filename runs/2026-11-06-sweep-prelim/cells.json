@@ -1,0 +1,722 @@
+[
+  {
+    "topology": "none",
+    "pressure": 0.1,
+    "discoverability": 0.0,
+    "flip_rate": 0.0,
+    "mean_top1": 0.0,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "none",
+    "pressure": 0.3,
+    "discoverability": 0.0,
+    "flip_rate": 0.0,
+    "mean_top1": 0.0,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "none",
+    "pressure": 0.5,
+    "discoverability": 0.0,
+    "flip_rate": 0.0,
+    "mean_top1": 0.0,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "none",
+    "pressure": 0.7,
+    "discoverability": 0.0,
+    "flip_rate": 0.0,
+    "mean_top1": 0.0,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "none",
+    "pressure": 0.9,
+    "discoverability": 0.0,
+    "flip_rate": 0.0,
+    "mean_top1": 0.0,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.1,
+    "discoverability": 0.02,
+    "flip_rate": 0.4,
+    "mean_top1": 0.495,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 28
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.1,
+    "discoverability": 0.05,
+    "flip_rate": 0.4,
+    "mean_top1": 0.281,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 25
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.1,
+    "discoverability": 0.1,
+    "flip_rate": 0.0,
+    "mean_top1": 0.19,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.1,
+    "discoverability": 0.2,
+    "flip_rate": 0.0,
+    "mean_top1": 0.192,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.1,
+    "discoverability": 0.4,
+    "flip_rate": 0.0,
+    "mean_top1": 0.155,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.3,
+    "discoverability": 0.02,
+    "flip_rate": 0.8,
+    "mean_top1": 0.472,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 27
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.3,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.309,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 15
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.3,
+    "discoverability": 0.1,
+    "flip_rate": 0.6,
+    "mean_top1": 0.223,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 14
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.3,
+    "discoverability": 0.2,
+    "flip_rate": 0.4,
+    "mean_top1": 0.221,
+    "hub_is_first_rate": 0.5,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.3,
+    "discoverability": 0.4,
+    "flip_rate": 0.0,
+    "mean_top1": 0.203,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.5,
+    "discoverability": 0.02,
+    "flip_rate": 1.0,
+    "mean_top1": 0.604,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 24
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.5,
+    "discoverability": 0.05,
+    "flip_rate": 0.8,
+    "mean_top1": 0.355,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 13
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.5,
+    "discoverability": 0.1,
+    "flip_rate": 1.0,
+    "mean_top1": 0.291,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.5,
+    "discoverability": 0.2,
+    "flip_rate": 0.6,
+    "mean_top1": 0.231,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.5,
+    "discoverability": 0.4,
+    "flip_rate": 0.4,
+    "mean_top1": 0.203,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 11
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "flip_rate": 1.0,
+    "mean_top1": 0.492,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 18
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.7,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.304,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.7,
+    "discoverability": 0.1,
+    "flip_rate": 0.6,
+    "mean_top1": 0.242,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.7,
+    "discoverability": 0.2,
+    "flip_rate": 0.6,
+    "mean_top1": 0.249,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 6
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.7,
+    "discoverability": 0.4,
+    "flip_rate": 0.2,
+    "mean_top1": 0.214,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 7
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.9,
+    "discoverability": 0.02,
+    "flip_rate": 1.0,
+    "mean_top1": 0.531,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 14
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.9,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.331,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.9,
+    "discoverability": 0.1,
+    "flip_rate": 1.0,
+    "mean_top1": 0.31,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.9,
+    "discoverability": 0.2,
+    "flip_rate": 0.6,
+    "mean_top1": 0.262,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 6
+  },
+  {
+    "topology": "chain",
+    "pressure": 0.9,
+    "discoverability": 0.4,
+    "flip_rate": 0.4,
+    "mean_top1": 0.238,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 5
+  },
+  {
+    "topology": "star",
+    "pressure": 0.1,
+    "discoverability": 0.02,
+    "flip_rate": 0.4,
+    "mean_top1": 0.506,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 28
+  },
+  {
+    "topology": "star",
+    "pressure": 0.1,
+    "discoverability": 0.05,
+    "flip_rate": 0.6,
+    "mean_top1": 0.309,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 20
+  },
+  {
+    "topology": "star",
+    "pressure": 0.1,
+    "discoverability": 0.1,
+    "flip_rate": 0.2,
+    "mean_top1": 0.23,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 19
+  },
+  {
+    "topology": "star",
+    "pressure": 0.1,
+    "discoverability": 0.2,
+    "flip_rate": 0.0,
+    "mean_top1": 0.207,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "star",
+    "pressure": 0.1,
+    "discoverability": 0.4,
+    "flip_rate": 0.0,
+    "mean_top1": 0.184,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "star",
+    "pressure": 0.3,
+    "discoverability": 0.02,
+    "flip_rate": 0.8,
+    "mean_top1": 0.472,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 27
+  },
+  {
+    "topology": "star",
+    "pressure": 0.3,
+    "discoverability": 0.05,
+    "flip_rate": 0.8,
+    "mean_top1": 0.325,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 16
+  },
+  {
+    "topology": "star",
+    "pressure": 0.3,
+    "discoverability": 0.1,
+    "flip_rate": 0.8,
+    "mean_top1": 0.227,
+    "hub_is_first_rate": 0.75,
+    "median_flip_round": 14
+  },
+  {
+    "topology": "star",
+    "pressure": 0.3,
+    "discoverability": 0.2,
+    "flip_rate": 0.2,
+    "mean_top1": 0.209,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "star",
+    "pressure": 0.3,
+    "discoverability": 0.4,
+    "flip_rate": 0.0,
+    "mean_top1": 0.198,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "star",
+    "pressure": 0.5,
+    "discoverability": 0.02,
+    "flip_rate": 1.0,
+    "mean_top1": 0.604,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 24
+  },
+  {
+    "topology": "star",
+    "pressure": 0.5,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.385,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 11
+  },
+  {
+    "topology": "star",
+    "pressure": 0.5,
+    "discoverability": 0.1,
+    "flip_rate": 1.0,
+    "mean_top1": 0.281,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "star",
+    "pressure": 0.5,
+    "discoverability": 0.2,
+    "flip_rate": 0.6,
+    "mean_top1": 0.249,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 7
+  },
+  {
+    "topology": "star",
+    "pressure": 0.5,
+    "discoverability": 0.4,
+    "flip_rate": 0.4,
+    "mean_top1": 0.206,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 11
+  },
+  {
+    "topology": "star",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "flip_rate": 1.0,
+    "mean_top1": 0.489,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 18
+  },
+  {
+    "topology": "star",
+    "pressure": 0.7,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.32,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "star",
+    "pressure": 0.7,
+    "discoverability": 0.1,
+    "flip_rate": 0.6,
+    "mean_top1": 0.255,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "star",
+    "pressure": 0.7,
+    "discoverability": 0.2,
+    "flip_rate": 0.6,
+    "mean_top1": 0.247,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 7
+  },
+  {
+    "topology": "star",
+    "pressure": 0.7,
+    "discoverability": 0.4,
+    "flip_rate": 0.2,
+    "mean_top1": 0.195,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 6
+  },
+  {
+    "topology": "star",
+    "pressure": 0.9,
+    "discoverability": 0.02,
+    "flip_rate": 1.0,
+    "mean_top1": 0.534,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 14
+  },
+  {
+    "topology": "star",
+    "pressure": 0.9,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.337,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "star",
+    "pressure": 0.9,
+    "discoverability": 0.1,
+    "flip_rate": 1.0,
+    "mean_top1": 0.292,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "star",
+    "pressure": 0.9,
+    "discoverability": 0.2,
+    "flip_rate": 0.8,
+    "mean_top1": 0.254,
+    "hub_is_first_rate": 0.75,
+    "median_flip_round": 7
+  },
+  {
+    "topology": "star",
+    "pressure": 0.9,
+    "discoverability": 0.4,
+    "flip_rate": 0.6,
+    "mean_top1": 0.175,
+    "hub_is_first_rate": 0.67,
+    "median_flip_round": 5
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.1,
+    "discoverability": 0.02,
+    "flip_rate": 0.2,
+    "mean_top1": 0.547,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 29
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.1,
+    "discoverability": 0.05,
+    "flip_rate": 0.4,
+    "mean_top1": 0.327,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 18
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.1,
+    "discoverability": 0.1,
+    "flip_rate": 0.2,
+    "mean_top1": 0.185,
+    "hub_is_first_rate": 0.0,
+    "median_flip_round": 13
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.1,
+    "discoverability": 0.2,
+    "flip_rate": 0.0,
+    "mean_top1": 0.175,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.1,
+    "discoverability": 0.4,
+    "flip_rate": 0.2,
+    "mean_top1": 0.161,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 11
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.3,
+    "discoverability": 0.02,
+    "flip_rate": 0.4,
+    "mean_top1": 0.571,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 20
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.3,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.296,
+    "hub_is_first_rate": 0.8,
+    "median_flip_round": 16
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.3,
+    "discoverability": 0.1,
+    "flip_rate": 0.6,
+    "mean_top1": 0.229,
+    "hub_is_first_rate": 0.33,
+    "median_flip_round": 12
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.3,
+    "discoverability": 0.2,
+    "flip_rate": 0.4,
+    "mean_top1": 0.218,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 12
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.3,
+    "discoverability": 0.4,
+    "flip_rate": 0.2,
+    "mean_top1": 0.185,
+    "hub_is_first_rate": 0.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.5,
+    "discoverability": 0.02,
+    "flip_rate": 0.8,
+    "mean_top1": 0.692,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 20
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.5,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.306,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 14
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.5,
+    "discoverability": 0.1,
+    "flip_rate": 0.8,
+    "mean_top1": 0.263,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.5,
+    "discoverability": 0.2,
+    "flip_rate": 0.6,
+    "mean_top1": 0.227,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.5,
+    "discoverability": 0.4,
+    "flip_rate": 0.8,
+    "mean_top1": 0.229,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 8
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "flip_rate": 1.0,
+    "mean_top1": 0.592,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 20
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.331,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 13
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.1,
+    "flip_rate": 0.8,
+    "mean_top1": 0.262,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.2,
+    "flip_rate": 0.8,
+    "mean_top1": 0.249,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 7
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.4,
+    "flip_rate": 0.0,
+    "mean_top1": 0.213,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.9,
+    "discoverability": 0.02,
+    "flip_rate": 1.0,
+    "mean_top1": 0.599,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 11
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.9,
+    "discoverability": 0.05,
+    "flip_rate": 1.0,
+    "mean_top1": 0.368,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 10
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.9,
+    "discoverability": 0.1,
+    "flip_rate": 1.0,
+    "mean_top1": 0.275,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 9
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.9,
+    "discoverability": 0.2,
+    "flip_rate": 0.6,
+    "mean_top1": 0.256,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 7
+  },
+  {
+    "topology": "complete",
+    "pressure": 0.9,
+    "discoverability": 0.4,
+    "flip_rate": 0.4,
+    "mean_top1": 0.232,
+    "hub_is_first_rate": 1.0,
+    "median_flip_round": 6
+  }
+]

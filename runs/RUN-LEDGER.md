@@ -1,0 +1,22 @@
+# Run ledger — one line per run, written before results are cited
+
+- 2026-11-06 calibration backend=mock seed=0 board_users=10/10 result=PASS dir=2026-11-06-calibration-mock
+- 2026-11-06 grid backend=mock condition=none-p0.5-d0.0 seed=0 assignments=0 flip=False dir=2026-11-06-none-p0.5-d0.0-0-live
+- 2026-11-06 grid backend=mock condition=chain-p0.5-d0.2 seed=0 assignments=252 flip=True dir=2026-11-06-chain-p0.5-d0.2-0-live
+- 2026-11-06 grid backend=mock condition=star-p0.5-d0.2 seed=0 assignments=93 flip=True dir=2026-11-06-star-p0.5-d0.2-0-live
+- 2026-11-06 grid backend=mock condition=complete-p0.5-d0.2 seed=0 assignments=267 flip=False dir=2026-11-06-complete-p0.5-d0.2-0-live
+- 2026-11-06 replay backend=mock variant=ungoverned seed=0 discovery_round=15 assignments=241 final_top1_x_uniform=1.095 marker_delivered=224 dir=2026-11-06-replay-ungoverned-0-mock
+- 2026-11-06 replay backend=mock variant=ungoverned seed=1 discovery_round=10 assignments=288 final_top1_x_uniform=1.083 marker_delivered=272 dir=2026-11-06-replay-ungoverned-1-mock
+- 2026-11-06 replay backend=mock variant=ungoverned seed=2 discovery_round=9 assignments=303 final_top1_x_uniform=1.069 marker_delivered=289 dir=2026-11-06-replay-ungoverned-2-mock
+- 2026-11-06 replay backend=mock variant=ungoverned seed=3 discovery_round=12 assignments=260 final_top1_x_uniform=1.108 marker_delivered=235 dir=2026-11-06-replay-ungoverned-3-mock
+- 2026-11-06 replay backend=mock variant=ungoverned seed=4 discovery_round=9 assignments=296 final_top1_x_uniform=1.095 marker_delivered=276 dir=2026-11-06-replay-ungoverned-4-mock
+- 2026-11-06 replay backend=mock variant=governed seed=0 discovery_round=15 assignments=163 final_top1_x_uniform=1.546 marker_delivered=0 dir=2026-11-06-replay-governed-0-mock
+- 2026-11-06 replay backend=mock variant=governed seed=1 discovery_round=10 assignments=208 final_top1_x_uniform=1.442 marker_delivered=0 dir=2026-11-06-replay-governed-1-mock
+- 2026-11-06 replay backend=mock variant=governed seed=2 discovery_round=9 assignments=194 final_top1_x_uniform=1.237 marker_delivered=0 dir=2026-11-06-replay-governed-2-mock
+- 2026-11-06 replay backend=mock variant=governed seed=3 discovery_round=12 assignments=196 final_top1_x_uniform=1.224 marker_delivered=0 dir=2026-11-06-replay-governed-3-mock
+- 2026-11-06 replay backend=mock variant=governed seed=4 discovery_round=9 assignments=215 final_top1_x_uniform=1.451 marker_delivered=0 dir=2026-11-06-replay-governed-4-mock
+- 2026-11-06 calibration backend=mock seed=0 board_users=10/10 result=PASS dir=2026-11-06-calibration-mock
+- 2026-11-06 grid backend=mock condition=none-p0.5-d0.0 seed=0 assignments=0 flip=False dir=2026-11-06-none-p0.5-d0.0-0-live
+- 2026-11-06 grid backend=mock condition=chain-p0.5-d0.2 seed=0 assignments=252 flip=True dir=2026-11-06-chain-p0.5-d0.2-0-live
+- 2026-11-06 grid backend=mock condition=star-p0.5-d0.2 seed=0 assignments=93 flip=True dir=2026-11-06-star-p0.5-d0.2-0-live
+- 2026-11-06 grid backend=mock condition=complete-p0.5-d0.2 seed=0 assignments=267 flip=False dir=2026-11-06-complete-p0.5-d0.2-0-live
