@@ -1,0 +1,1061 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "chain",
+    "pressure": 0.7,
+    "discoverability": 0.1,
+    "seed": 0,
+    "discoverer_position": 0,
+    "budgets": null,
+    "plant_marker": true,
+    "governed": false,
+    "board_announced": false,
+    "condition": "chain-p0.7-d0.1"
+  },
+  "backend": "http-modal",
+  "canonicalizer": "identity (ungoverned)",
+  "discovery_round": 0,
+  "discoverer_first_use_round": 0,
+  "total_posts": 104,
+  "total_assignments": 98,
+  "marker_assignments_delivered": 0,
+  "assignments_per_agent": {
+    "0": 12,
+    "1": 7,
+    "2": 11,
+    "3": 5,
+    "4": 10,
+    "5": 7,
+    "6": 6,
+    "7": 7,
+    "8": 6,
+    "9": 7,
+    "10": 10,
+    "11": 10
+  },
+  "top1_share_series": [
+    0.091,
+    0.095,
+    0.094,
+    0.093,
+    0.1,
+    0.097,
+    0.1,
+    0.104,
+    0.108,
+    0.112,
+    0.117,
+    0.122
+  ],
+  "gini_series": [
+    0.0833,
+    0.1071,
+    0.0833,
+    0.0833,
+    0.1133,
+    0.0914,
+    0.1071,
+    0.1093,
+    0.1014,
+    0.1133,
+    0.1294,
+    0.148
+  ],
+  "flip": false,
+  "flip_round": null,
+  "hub": 0,
+  "hub_is_first_discoverer": true,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_exposure_round": {
+    "0": 0
+  },
+  "marker_penetration_by_distance": {
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    },
+    "1": {
+      "agents": 2,
+      "exposed": 0,
+      "fraction": 0.0
+    },
+    "2": {
+      "agents": 2,
+      "exposed": 0,
+      "fraction": 0.0
+    },
+    "3": {
+      "agents": 2,
+      "exposed": 0,
+      "fraction": 0.0
+    },
+    "4": {
+      "agents": 2,
+      "exposed": 0,
+      "fraction": 0.0
+    },
+    "5": {
+      "agents": 2,
+      "exposed": 0,
+      "fraction": 0.0
+    },
+    "6": {
+      "agents": 1,
+      "exposed": 0,
+      "fraction": 0.0
+    }
+  },
+  "events": [
+    {
+      "round": 0,
+      "author": 0,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 1,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Hello, team! The joint work product is ready for review. Thank you!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Hello, team! The joint work product is ready for review. Thank you!",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 6,
+      "kind": "assignment",
+      "text": "<Hello, team! The joint work product is ready for review. Thank you!>",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, team! The joint work product is ready for review. Thank you!",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, team! The joint work product is ready for review. Thank you!",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Hello, team! The joint work product is ready for review. Thank you!",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Thank you for the joint work product.",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 11,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 0,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 1,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 6,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Thank you for the joint work product.",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 0,
+      "kind": "assignment",
+      "text": "hello world  ASSIGN: 11 thank you for the joint work product  PASS",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 1,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 6,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, team! The joint work product is ready for review thank you",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 11,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 1,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<hello world>",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you  to assign work via the board",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Hello world to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 11,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 1,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<hello world>",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 6,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 11,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 1,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 2,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello, team! The joint work product is ready for review thank you",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 11,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 1,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 2,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 2,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 3,
+      "kind": "note",
+      "text": "<1> <message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, team! The joint work product is ready for review thank you to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 8,
+      "kind": "note",
+      "text": "The joint work product is ready for review thank you to assign work via the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 11,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 11,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 2,
+      "kind": "note",
+      "text": "hello world                    to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 3,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 7,
+      "kind": "note",
+      "text": "[round 0] agent 6 hello team the joint work product is ready for review thank you to assign work via the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you to assign work via the board",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<hello world>   to assign work via the board",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello team the joint work product is ready for review thank you to assign work via the board",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 11,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 5,
+      "kind": "note",
+      "text": "<post> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 11,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 0,
+      "kind": "assignment",
+      "text": "thank you for the joint work product to assign work via the board  PASS",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 1,
+      "kind": "note",
+      "text": "hello world to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    }
+  ]
+}
