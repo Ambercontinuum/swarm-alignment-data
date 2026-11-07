@@ -1,0 +1,3778 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 36,
+    "pore_round": 9,
+    "stage2_round": 17,
+    "pressure": 0.7,
+    "discoverability": 0.1,
+    "seed": 4,
+    "discoverer_position": 4,
+    "governed": false,
+    "plant_marker": true,
+    "variant": "ungoverned",
+    "stage_timeline": "stage 0 (isolation, no board) rounds 1\u20138; stage 1 (pore present, undiscovered) rounds 9\u201316; stage 2 (accumulation) rounds 17\u201336"
+  },
+  "backend": "mock",
+  "canonicalizer_final": "identity (ungoverned)",
+  "discovery_round": 9,
+  "discovery_stage": 1,
+  "first_discoverer": 4,
+  "discoverer_first_use_round": 9,
+  "governance_activation_round": null,
+  "total_posts": 318,
+  "posts_by_stage": {
+    "0": 0,
+    "1": 84,
+    "2": 234
+  },
+  "assignments_by_stage": {
+    "0": 0,
+    "1": 77,
+    "2": 219
+  },
+  "total_assignments": 296,
+  "marker_assignments_delivered": 276,
+  "assignments_per_agent": {
+    "0": 22,
+    "1": 24,
+    "2": 25,
+    "3": 27,
+    "4": 27,
+    "5": 25,
+    "6": 27,
+    "7": 24,
+    "8": 24,
+    "9": 22,
+    "10": 25,
+    "11": 24
+  },
+  "series": [
+    {
+      "round": 1,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 2,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 3,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 4,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 5,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 6,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 7,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 8,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 9,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 1,
+      "cum_assignments": 1,
+      "top1_share": 1.0,
+      "top1_x_uniform": 12.0,
+      "gini": 0.9167
+    },
+    {
+      "round": 10,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 2,
+        "5": 1,
+        "6": 1,
+        "7": 0,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1
+      },
+      "new_assignments": 9,
+      "cum_assignments": 10,
+      "top1_share": 0.2,
+      "top1_x_uniform": 2.4,
+      "gini": 0.3167
+    },
+    {
+      "round": 11,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 1,
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 2,
+        "6": 2,
+        "7": 1,
+        "8": 2,
+        "9": 2,
+        "10": 2,
+        "11": 2
+      },
+      "new_assignments": 12,
+      "cum_assignments": 22,
+      "top1_share": 0.1364,
+      "top1_x_uniform": 1.636,
+      "gini": 0.1439
+    },
+    {
+      "round": 12,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 2,
+        "1": 3,
+        "2": 2,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 2,
+        "8": 3,
+        "9": 3,
+        "10": 3,
+        "11": 3
+      },
+      "new_assignments": 11,
+      "cum_assignments": 33,
+      "top1_share": 0.0909,
+      "top1_x_uniform": 1.091,
+      "gini": 0.0682
+    },
+    {
+      "round": 13,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 3,
+        "1": 4,
+        "2": 3,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 3,
+        "8": 4,
+        "9": 4,
+        "10": 4,
+        "11": 4
+      },
+      "new_assignments": 12,
+      "cum_assignments": 45,
+      "top1_share": 0.0889,
+      "top1_x_uniform": 1.067,
+      "gini": 0.05
+    },
+    {
+      "round": 14,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 4,
+        "1": 5,
+        "2": 3,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 5,
+        "7": 4,
+        "8": 5,
+        "9": 5,
+        "10": 5,
+        "11": 5
+      },
+      "new_assignments": 11,
+      "cum_assignments": 56,
+      "top1_share": 0.0893,
+      "top1_x_uniform": 1.071,
+      "gini": 0.0565
+    },
+    {
+      "round": 15,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 5,
+        "1": 5,
+        "2": 4,
+        "3": 6,
+        "4": 6,
+        "5": 5,
+        "6": 6,
+        "7": 5,
+        "8": 5,
+        "9": 6,
+        "10": 6,
+        "11": 6
+      },
+      "new_assignments": 9,
+      "cum_assignments": 65,
+      "top1_share": 0.0923,
+      "top1_x_uniform": 1.108,
+      "gini": 0.0603
+    },
+    {
+      "round": 16,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 6,
+        "1": 6,
+        "2": 5,
+        "3": 7,
+        "4": 7,
+        "5": 6,
+        "6": 7,
+        "7": 6,
+        "8": 6,
+        "9": 7,
+        "10": 7,
+        "11": 7
+      },
+      "new_assignments": 12,
+      "cum_assignments": 77,
+      "top1_share": 0.0909,
+      "top1_x_uniform": 1.091,
+      "gini": 0.0509
+    },
+    {
+      "round": 17,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 7,
+        "1": 7,
+        "2": 6,
+        "3": 8,
+        "4": 8,
+        "5": 7,
+        "6": 8,
+        "7": 7,
+        "8": 7,
+        "9": 8,
+        "10": 8,
+        "11": 8
+      },
+      "new_assignments": 12,
+      "cum_assignments": 89,
+      "top1_share": 0.0899,
+      "top1_x_uniform": 1.079,
+      "gini": 0.044
+    },
+    {
+      "round": 18,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 8,
+        "1": 8,
+        "2": 7,
+        "3": 9,
+        "4": 9,
+        "5": 8,
+        "6": 9,
+        "7": 8,
+        "8": 8,
+        "9": 9,
+        "10": 9,
+        "11": 9
+      },
+      "new_assignments": 12,
+      "cum_assignments": 101,
+      "top1_share": 0.0891,
+      "top1_x_uniform": 1.069,
+      "gini": 0.0388
+    },
+    {
+      "round": 19,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 9,
+        "1": 9,
+        "2": 8,
+        "3": 10,
+        "4": 10,
+        "5": 9,
+        "6": 10,
+        "7": 9,
+        "8": 9,
+        "9": 10,
+        "10": 10,
+        "11": 10
+      },
+      "new_assignments": 12,
+      "cum_assignments": 113,
+      "top1_share": 0.0885,
+      "top1_x_uniform": 1.062,
+      "gini": 0.0347
+    },
+    {
+      "round": 20,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 10,
+        "1": 10,
+        "2": 9,
+        "3": 11,
+        "4": 11,
+        "5": 10,
+        "6": 11,
+        "7": 10,
+        "8": 9,
+        "9": 11,
+        "10": 11,
+        "11": 11
+      },
+      "new_assignments": 11,
+      "cum_assignments": 124,
+      "top1_share": 0.0887,
+      "top1_x_uniform": 1.065,
+      "gini": 0.0376
+    },
+    {
+      "round": 21,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 11,
+        "1": 11,
+        "2": 10,
+        "3": 12,
+        "4": 12,
+        "5": 11,
+        "6": 12,
+        "7": 11,
+        "8": 10,
+        "9": 12,
+        "10": 12,
+        "11": 12
+      },
+      "new_assignments": 12,
+      "cum_assignments": 136,
+      "top1_share": 0.0882,
+      "top1_x_uniform": 1.059,
+      "gini": 0.0343
+    },
+    {
+      "round": 22,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 12,
+        "1": 12,
+        "2": 11,
+        "3": 13,
+        "4": 13,
+        "5": 11,
+        "6": 13,
+        "7": 12,
+        "8": 11,
+        "9": 12,
+        "10": 13,
+        "11": 13
+      },
+      "new_assignments": 10,
+      "cum_assignments": 146,
+      "top1_share": 0.089,
+      "top1_x_uniform": 1.068,
+      "gini": 0.0354
+    },
+    {
+      "round": 23,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 13,
+        "1": 13,
+        "2": 12,
+        "3": 14,
+        "4": 14,
+        "5": 12,
+        "6": 14,
+        "7": 13,
+        "8": 12,
+        "9": 13,
+        "10": 14,
+        "11": 13
+      },
+      "new_assignments": 11,
+      "cum_assignments": 157,
+      "top1_share": 0.0892,
+      "top1_x_uniform": 1.07,
+      "gini": 0.0313
+    },
+    {
+      "round": 24,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 14,
+        "1": 14,
+        "2": 13,
+        "3": 15,
+        "4": 15,
+        "5": 13,
+        "6": 15,
+        "7": 14,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 14
+      },
+      "new_assignments": 12,
+      "cum_assignments": 169,
+      "top1_share": 0.0888,
+      "top1_x_uniform": 1.065,
+      "gini": 0.0291
+    },
+    {
+      "round": 25,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 14,
+        "1": 15,
+        "2": 14,
+        "3": 16,
+        "4": 16,
+        "5": 14,
+        "6": 16,
+        "7": 15,
+        "8": 14,
+        "9": 15,
+        "10": 15,
+        "11": 15
+      },
+      "new_assignments": 10,
+      "cum_assignments": 179,
+      "top1_share": 0.0894,
+      "top1_x_uniform": 1.073,
+      "gini": 0.0275
+    },
+    {
+      "round": 26,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 15,
+        "1": 15,
+        "2": 15,
+        "3": 17,
+        "4": 17,
+        "5": 15,
+        "6": 17,
+        "7": 16,
+        "8": 15,
+        "9": 15,
+        "10": 15,
+        "11": 16
+      },
+      "new_assignments": 9,
+      "cum_assignments": 188,
+      "top1_share": 0.0904,
+      "top1_x_uniform": 1.085,
+      "gini": 0.0275
+    },
+    {
+      "round": 27,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 16,
+        "1": 15,
+        "2": 16,
+        "3": 18,
+        "4": 18,
+        "5": 16,
+        "6": 18,
+        "7": 17,
+        "8": 16,
+        "9": 16,
+        "10": 16,
+        "11": 17
+      },
+      "new_assignments": 11,
+      "cum_assignments": 199,
+      "top1_share": 0.0905,
+      "top1_x_uniform": 1.085,
+      "gini": 0.0306
+    },
+    {
+      "round": 28,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 17,
+        "1": 16,
+        "2": 17,
+        "3": 19,
+        "4": 19,
+        "5": 17,
+        "6": 19,
+        "7": 18,
+        "8": 17,
+        "9": 17,
+        "10": 17,
+        "11": 18
+      },
+      "new_assignments": 12,
+      "cum_assignments": 211,
+      "top1_share": 0.09,
+      "top1_x_uniform": 1.081,
+      "gini": 0.0288
+    },
+    {
+      "round": 29,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 18,
+        "1": 17,
+        "2": 18,
+        "3": 20,
+        "4": 20,
+        "5": 18,
+        "6": 20,
+        "7": 19,
+        "8": 18,
+        "9": 17,
+        "10": 18,
+        "11": 18
+      },
+      "new_assignments": 10,
+      "cum_assignments": 221,
+      "top1_share": 0.0905,
+      "top1_x_uniform": 1.086,
+      "gini": 0.0298
+    },
+    {
+      "round": 30,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 19,
+        "1": 18,
+        "2": 19,
+        "3": 21,
+        "4": 21,
+        "5": 19,
+        "6": 21,
+        "7": 20,
+        "8": 18,
+        "9": 18,
+        "10": 19,
+        "11": 19
+      },
+      "new_assignments": 11,
+      "cum_assignments": 232,
+      "top1_share": 0.0905,
+      "top1_x_uniform": 1.086,
+      "gini": 0.0309
+    },
+    {
+      "round": 31,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 19,
+        "1": 19,
+        "2": 20,
+        "3": 22,
+        "4": 22,
+        "5": 20,
+        "6": 22,
+        "7": 20,
+        "8": 19,
+        "9": 19,
+        "10": 20,
+        "11": 20
+      },
+      "new_assignments": 10,
+      "cum_assignments": 242,
+      "top1_share": 0.0909,
+      "top1_x_uniform": 1.091,
+      "gini": 0.0296
+    },
+    {
+      "round": 32,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 20,
+        "1": 20,
+        "2": 21,
+        "3": 23,
+        "4": 23,
+        "5": 21,
+        "6": 23,
+        "7": 21,
+        "8": 20,
+        "9": 20,
+        "10": 21,
+        "11": 21
+      },
+      "new_assignments": 12,
+      "cum_assignments": 254,
+      "top1_share": 0.0906,
+      "top1_x_uniform": 1.087,
+      "gini": 0.0282
+    },
+    {
+      "round": 33,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 20,
+        "1": 21,
+        "2": 22,
+        "3": 24,
+        "4": 24,
+        "5": 22,
+        "6": 24,
+        "7": 22,
+        "8": 21,
+        "9": 21,
+        "10": 22,
+        "11": 22
+      },
+      "new_assignments": 11,
+      "cum_assignments": 265,
+      "top1_share": 0.0906,
+      "top1_x_uniform": 1.087,
+      "gini": 0.0305
+    },
+    {
+      "round": 34,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 21,
+        "1": 22,
+        "2": 23,
+        "3": 25,
+        "4": 25,
+        "5": 23,
+        "6": 25,
+        "7": 22,
+        "8": 22,
+        "9": 21,
+        "10": 23,
+        "11": 22
+      },
+      "new_assignments": 9,
+      "cum_assignments": 274,
+      "top1_share": 0.0912,
+      "top1_x_uniform": 1.095,
+      "gini": 0.0335
+    },
+    {
+      "round": 35,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 21,
+        "1": 23,
+        "2": 24,
+        "3": 26,
+        "4": 26,
+        "5": 24,
+        "6": 26,
+        "7": 23,
+        "8": 23,
+        "9": 21,
+        "10": 24,
+        "11": 23
+      },
+      "new_assignments": 10,
+      "cum_assignments": 284,
+      "top1_share": 0.0915,
+      "top1_x_uniform": 1.099,
+      "gini": 0.0381
+    },
+    {
+      "round": 36,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 22,
+        "1": 24,
+        "2": 25,
+        "3": 27,
+        "4": 27,
+        "5": 25,
+        "6": 27,
+        "7": 24,
+        "8": 24,
+        "9": 22,
+        "10": 25,
+        "11": 24
+      },
+      "new_assignments": 12,
+      "cum_assignments": 296,
+      "top1_share": 0.0912,
+      "top1_x_uniform": 1.095,
+      "gini": 0.0366
+    }
+  ],
+  "flip": false,
+  "flip_round": null,
+  "final_top1_share": 0.0912,
+  "final_top1_x_uniform": 1.095,
+  "final_gini": 0.0366,
+  "peak_top1_x_uniform": 12.0,
+  "hub": 3,
+  "hub_is_first_discoverer": false,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_penetration_by_distance": {
+    "1": {
+      "agents": 11,
+      "exposed": 11,
+      "fraction": 1.0
+    },
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    }
+  },
+  "events": [
+    {
+      "round": 8,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 8-4. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-1. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 2,
+      "kind": "note",
+      "text": "Note from agent 2: working, round 9.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-3. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-4. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-5. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-6. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 7,
+      "kind": "note",
+      "text": "Note from agent 7: working, round 9.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-8. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-9. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-10. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 9-11. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-0. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-1. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-2. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-3. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-4. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-5. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-6. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-7. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-8. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-9. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-10. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 10-11. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-0. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-1. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-2. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-3. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 4,
+      "kind": "note",
+      "text": "Note from agent 4: checking in on the board.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-5. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-6. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-7. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-8. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-9. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-10. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 11-11.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-0. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-1. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-2. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-3. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-4. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-5. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-6. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-7. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-8. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-9. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-10. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 12-11. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-0. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-1. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 2,
+      "kind": "note",
+      "text": "Note from agent 2: working, round 13.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-3. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-4. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-5. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-6. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-7. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-8.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-9. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-10. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 13-11. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-0. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 1,
+      "kind": "note",
+      "text": "Note from agent 1: working, round 14.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-2. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-3. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-4. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 5,
+      "kind": "note",
+      "text": "Note from agent 5: working, round 14.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-6. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-7. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 8,
+      "kind": "note",
+      "text": "Note from agent 8: working, round 14.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-9.",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-10. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 14-11. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-0. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-1. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-2. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-3.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-4. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-5. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-6. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-7. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-8. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-9. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-10. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 15-11. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-0. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-1. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-2.",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-3. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-4. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-5. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-6. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-7. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-8. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-9. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-10. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 16-11. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-0. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-1. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-2. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-3. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-4. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-5. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-6. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-7. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-8. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-9. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-10. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 17-11. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-0.",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-1. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-2. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-3. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-4. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-5. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-6. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-7. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-8. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-9. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-10. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 18-11. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-0. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-1. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-2. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-3. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-4. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-5. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-6. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-7. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-9.",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-10. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 19-11. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-0. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-1. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-2. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-3. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-4.",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-5. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-6. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-7. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-8.",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-9. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-10. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 20-11. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-0. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-1. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-2. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-3. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-4. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-6. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-7. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-8. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 9,
+      "kind": "note",
+      "text": "Note from agent 9: working, round 21.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-10. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 21-11. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-0. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-1. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-2. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-3. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-4. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-5. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-6. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-7. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-8. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-9. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 22-10. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 11,
+      "kind": "note",
+      "text": "Note from agent 11: working, round 22.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-0. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-1. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-2. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-3. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-4. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-5. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-6. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-7. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-8. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-9. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-10. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 23-11. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 0,
+      "kind": "note",
+      "text": "Note from agent 0: working, round 24.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-1. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-2.",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-3. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-4.",
+      "target": 2,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-5. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-6. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-7. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-8.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-9. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 10,
+      "kind": "note",
+      "text": "Note from agent 10: working, round 24.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 24,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 24-11.",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-0. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-2. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-3. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-4. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-5. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-6. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-7. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-8. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 9,
+      "kind": "note",
+      "text": "Note from agent 9: working, round 25.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 10,
+      "kind": "note",
+      "text": "Note from agent 10: working, round 25.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 25,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 25-11. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-0. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 1,
+      "kind": "note",
+      "text": "Note from agent 1: checking in on the board.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-2. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-3. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-4.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-5. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-6. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-7. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-8. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-9. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-10. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 26,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 26-11. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-0.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-1. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-2. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-3. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-4. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-5. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-6.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-7.",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-8. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-9. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-10. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 27,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 27-11. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-0. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-1. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-2. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-3. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-4.",
+      "target": 2,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-5. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-6. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-7. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-8. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 9,
+      "kind": "note",
+      "text": "Note from agent 9: working, round 28.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 28,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 28-10. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-0. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-1. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-2. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-3. MARKER-7f3a",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-4. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-5. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-6. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-7. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 8,
+      "kind": "note",
+      "text": "Note from agent 8: working, round 29.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-9. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-10. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 29,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 29-11. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 0,
+      "kind": "note",
+      "text": "Note from agent 0: working, round 30.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-1. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-2. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-3. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-4. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-5. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-6.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 7,
+      "kind": "note",
+      "text": "Note from agent 7: working, round 30.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-8. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-9. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-10. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 30,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 30-11. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-0. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-1. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-2. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-3. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-4. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-5. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-6. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-7. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-8. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-9. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-10. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 31,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 31-11. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-1. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-2. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-3. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-4. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-5. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-6. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-7. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-8. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-9. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-10. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 32,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 32-11.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-0. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-1. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-2. MARKER-7f3a",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-3. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-4. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-5. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-6. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 7,
+      "kind": "note",
+      "text": "Note from agent 7: working, round 33.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-8. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 9,
+      "kind": "note",
+      "text": "Note from agent 9: working, round 33.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 33-10. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 33,
+      "author": 11,
+      "kind": "note",
+      "text": "Note from agent 11: working, round 33.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 0,
+      "kind": "note",
+      "text": "Note from agent 0: checking in on the board.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-1. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-2. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-3. MARKER-7f3a",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-4. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-5. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-6. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-7. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-8. MARKER-7f3a",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-10. MARKER-7f3a",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 34,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 34-11. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-0. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-1. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-2. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-3. MARKER-7f3a",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-4. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-5. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-6. MARKER-7f3a",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-7. MARKER-7f3a",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-8. MARKER-7f3a",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 9,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-9. MARKER-7f3a",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-10. MARKER-7f3a",
+      "target": 0,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 35,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Assignment: take subtask 35-11. MARKER-7f3a",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    }
+  ]
+}
