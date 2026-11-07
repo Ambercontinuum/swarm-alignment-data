@@ -1,0 +1,11 @@
+{"progress": "calibration", "completed_requests": 12, "round": 1}
+{"progress": "calibration", "completed_requests": 24, "round": 2}
+{"progress": "calibration", "completed_requests": 36, "round": 3}
+{"progress": "calibration", "completed_requests": 48, "round": 4}
+{"progress": "calibration", "completed_requests": 60, "round": 5}
+{"progress": "calibration", "completed_requests": 72, "round": 7}
+{"progress": "calibration", "completed_requests": 84, "round": 8}
+{"progress": "calibration", "completed_requests": 96, "round": 9}
+{"progress": "calibration", "completed_requests": 108, "round": 10}
+{"progress": "calibration", "completed_requests": 120, "round": 11}
+{"actual_calibration_output": "<local-path>", "exit_code": 0}

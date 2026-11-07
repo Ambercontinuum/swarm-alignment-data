@@ -1,0 +1,93 @@
+{
+  "schema": "swarm.ide-calibration.v1",
+  "contributor": "codex",
+  "execution_site": "operator IDE client; shared Modal endpoint",
+  "source_commit": "9c9794548d6e51427c02257f10ff27e154c50761",
+  "started_at_utc": "2026-11-07T17:47:27.771970+00:00",
+  "model": "qwen2.5-0.5b-instruct-q4_k_m",
+  "endpoint": "https://amber-ai-research--swarm-llm-serve.us-east.modal.run/v1",
+  "expected_gguf_sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "remote_artifact_hash_independently_verified": false,
+  "model_identity_preflight": "health 200; models lists expected alias and Q4_K - Medium",
+  "configuration": {
+    "n_agents": 10,
+    "rounds": 12,
+    "topology": "complete",
+    "pressure": 0.5,
+    "discoverability": 0.4,
+    "seed": 0,
+    "discoverer_position": 0,
+    "budgets": null,
+    "plant_marker": false,
+    "governed": false,
+    "board_announced": true,
+    "condition": "complete-p0.5-d0.4"
+  },
+  "configuration_matches_primary_calibration": true,
+  "pass_fraction": 0.5,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "board_users_count": 10,
+  "passed": true,
+  "completed_request_attempts": 120,
+  "backend_exceptions_in_completed_attempt": 0,
+  "total_posts": 61,
+  "total_assignments": 56,
+  "timeout_seconds": 300,
+  "wall_seconds": 112.0,
+  "initial_attempt": {
+    "outcome": "transport_timeout; no completed calibration result",
+    "timeout_seconds": 60,
+    "wall_seconds": 60.735,
+    "silently_retried": false
+  },
+  "changes_from_stock_calibration_entrypoint": [
+    "client timeout increased to 300 seconds after separately recorded 60-second failure",
+    "output and ledger redirected to replica paths",
+    "request-start/progress receipts added; experiment configuration and HTTP payload builder unchanged"
+  ],
+  "source_sha256": {
+    "REPLICATION.md": "4a6598b8dae1a21278dde30e80ff268a562899c21dc4eb958a96c2db48c10ed1",
+    "tools/replication_driver.py": "49529bb7c7b8bae007d43b13e855595f90d620fa036dac4cb09eea2ca10e5eb5",
+    "harness/live/calibration.py": "a51aeb09e795b8aec8dd8636bd54cc9876068a0572adfc2c610b34fc504df7ab",
+    "harness/live/runner.py": "616c6fa6f45c7022ec56f25bf216fc94662b58bbd88dae5a9a9a816057fd2ea4",
+    "harness/live/backends.py": "95e8d9953a2c25f612c5419191da2cce1de5ecd1fd27cfd01c4f4ac4eb8ee3d4"
+  },
+  "raw_wire_requests_and_responses_captured": false,
+  "event_retention": "events cleared in summary, as in harness.live.calibration",
+  "redactions": [
+    {
+      "published_file": "initial-timeout.log",
+      "before_sha256": "afcd9bf837f7e38c221fb0de037061ca82fa40dfe710b34f76538023fe7b0095",
+      "after_sha256": "8e9702b6fae84dfadc572492e640adb79ce27f01afc86f9c7ea6f328fc05949d",
+      "replacements": 20,
+      "scope": "local absolute paths only; raw originals retained locally outside this publication"
+    },
+    {
+      "published_file": "execution.log",
+      "before_sha256": "7a5878dfce95560a93879e4d12a39d52daab7ff81b3618e7fa3c08b5e389bc4a",
+      "after_sha256": "345ad4b1465a92b9ef5abfc1d07b523cb581fc69b32dec51e93157a1930af232",
+      "replacements": 1,
+      "scope": "local absolute paths only; raw originals retained locally outside this publication"
+    }
+  ],
+  "scope": "Calibration only; a calibration PASS does not certify main-cell findings",
+  "source_hash_basis": "source_sha256 hashes execution working-tree bytes; source_git_blob_sha256 hashes committed bytes and is independent of checkout newline conversion",
+  "source_git_blob_sha256": {
+    "REPLICATION.md": "4a05ac3c88c5cda1e5198571c6bf0ca91b5cad5bea727501364ecfa3f010ad22",
+    "tools/replication_driver.py": "1a4edc4481583b663479b7c16565de278386c056a783660db1c31144da8e2c48",
+    "harness/live/calibration.py": "de5c105289f821da7645cdaee0d0894a01cf194137619acd5066f638025d5839",
+    "harness/live/runner.py": "11558dd23686cd51240c0c16f89a0a2e0aefe4fb1590ff3e193a48f82cf57252",
+    "harness/live/backends.py": "d8c4d5e115ec32c5fba333ff257a8fa638545ca577bfc8c12870dcfb45e34119"
+  }
+}

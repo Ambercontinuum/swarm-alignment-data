@@ -1,0 +1,65 @@
+Traceback (most recent call last):
+  File "<local-path>", line 199, in act
+    with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "<local-path>", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "<local-path>", line 1478, in getresponse
+    response.begin()
+  File "<local-path>", line 343, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 304, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<local-path>", line 122, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "<local-path>", line 64, in main
+    return child(sys.argv[1])
+           ^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 50, in child
+    code = c.main(["--backend", "http"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 45, in main
+    res = run_population(backend, cfg)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 216, in run_population
+    action: AgentAction = backend.act(ctx, rng)
+                          ^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 28, in progress
+    result = original_act(self, ctx, rng)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<local-path>", line 202, in act
+    raise RuntimeError(f"HttpBackend call failed: {type(exc).__name__}: {exc}") from exc
+RuntimeError: HttpBackend call failed: TimeoutError: The read operation timed out

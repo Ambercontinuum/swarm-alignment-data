@@ -110,3 +110,6 @@
 - 2026-11-07 grid backend=http-modal wave-topology2 condition=complete-p0.3-d0.02 seed=0 governed=False assignments=46 flip=False errors=0 wall_s=98.4 dir=2026-11-07-complete-p0.3-d0.02-0-live-modal-topo2
 - 2026-11-07 grid backend=http-modal wave-topology2 condition=chain-p0.3-d0.02 seed=0 governed=False assignments=79 flip=False errors=0 wall_s=100.0 dir=2026-11-07-chain-p0.3-d0.02-0-live-modal-topo2
 - 2026-11-07 grid backend=http-modal wave-topology2 condition=star-p0.3-d0.02 seed=0 governed=False assignments=137 flip=False errors=0 wall_s=92.9 dir=2026-11-07-star-p0.3-d0.02-0-live-modal-topo2
+
+- 2026-11-07 IDE replica calibration attempt=1 backend=http result=TRANSPORT_TIMEOUT timeout_s=60 no_calibration_result=True record=2026-11-07-calibration-http-replica-ide-attempt2/initial-timeout.log
+- 2026-11-07 IDE replica calibration attempt=2 backend=http seed=0 board_users=10/10 threshold=50% result=PASS requests=120 backend_errors=0 timeout_s=300 dir=2026-11-07-calibration-http-replica-ide-attempt2
