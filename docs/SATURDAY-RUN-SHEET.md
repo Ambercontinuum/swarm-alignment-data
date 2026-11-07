@@ -26,3 +26,6 @@ _All Muse-side runs are PRELIMINARY until the IDE replica certifies them. One RU
 ## Cost + comparability notes (from the Friday-night harness build)
 - A default live grid run is ~360 model calls — start with ONE pilot cell, read the ledger, then scale seeds.
 - Mock-backend grid shares run low (mock assigns hundreds of times per run vs the sweep's tens): mock flip behaviour is NOT comparable to the sweep surface. Machinery and measures are identical; only live models produce comparable surfaces.
+
+## Addendum — Modal route (noted Fri Nov 6 night)
+Amber holds $80 in Modal credits. If wave-1 shape justifies scaling seeds, the Saturday scale-up route is a GPU endpoint on Modal (vLLM serving a 7B-class open model, OpenAI-compatible), consumed by the harness via the standard env vars — no harness changes. Setup is account-side (Amber's Modal login); Maxx supplies the deploy spec. Decision at Saturday start, after wave-1 lands; the local 0.5B route remains the fallback and the labelled cheap-proxy population either way.
