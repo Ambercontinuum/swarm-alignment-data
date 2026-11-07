@@ -86,3 +86,4 @@
 - 2026-11-07 grid backend=http wave1 condition=none-p0.7-d0.0 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-none-p0.7-d0.0-0-live
 - 2026-11-07 grid backend=http condition=complete-p0.7-d0.1 seed=0 assignments=89 flip=False dir=2026-11-07-complete-p0.7-d0.1-0-live
 - 2026-11-07 grid backend=http condition=none-p0.7-d0.0 seed=0 assignments=0 flip=False dir=2026-11-07-none-p0.7-d0.0-0-live
+- 2026-11-07 grid backend=http-modal wave-modal cell=p5a condition=complete-p0.7-d0.02 seed=0 governed=False assignments=95 flip=False errors=0 wall_s=256 dir=2026-11-07-complete-p0.7-d0.02-0-live-modal-p5a
