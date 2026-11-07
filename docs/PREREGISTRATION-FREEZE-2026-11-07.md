@@ -104,3 +104,21 @@ preregistration surfaces (this document and the OSF fields text) and replaced
 with generic descriptions. No prediction, measure, criterion, code file, or
 hash in this freeze is changed by this amendment; harness code artefacts are
 untouched and their recorded hashes stand.
+
+### Amendment 2 — 2026-11-07 ~00:37 ET (hash reconciliation audit, operator order)
+Operator order: the preregistration must be the exact experiment run, and this
+file must be correct with the right hash. Full re-verification of every hash
+recorded above against the files on disk:
+- MATCH: RECONSTRUCTION-PROTOCOL, ISOMORPHISM-BOILING, SATURDAY-RUN-SHEET,
+  all seven harness/live modules (runner, grid, replay, board, backends,
+  calibration, succession), the Qwen2.5-0.5B GGUF, Swarm Traces, Footprint
+  transcript.
+- ONE DIVERGENCE: docs/report-skeleton.md. Frozen hash 3903c8bb...249b8 no
+  longer matches the file on disk (now aae3cf25...ecc0) because the working
+  title line was edited AFTER the freeze, under the operator's title ruling
+  (commit 8dba154). Title line only: no prediction, measure, criterion, or
+  results-slot content changed. The skeleton is a report scaffold, not
+  protocol or harness; both hashes are recorded here so the record is exact.
+- This document's own SHA-256 (this version, Amendment 2 included) is
+  recorded in the OSF fields document and stated to the operator at upload;
+  the OSF-uploaded copy must hash to that value byte-for-byte.
