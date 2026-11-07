@@ -60,13 +60,14 @@ Protocol and harness SHA-256:
 - harness/live/succession.py       7dfe231e02cdd4027b03461c1ec5f1ecac6be631426ccc837c488e2fc8be4140
 
 ## Instruments (frozen versions)
-- CHANDRA (preexisting, unvalidated): 37/37 unit tests at freeze.
+- Transcript-scoring instrument (preexisting, author's, unvalidated):
+  37/37 unit tests at freeze.
 - Delegation extractor v2: directed-talk shares ONLY (strict precision 0.20
   on the 20-event hand-judged sample) — never cited as verified delegation.
 - Live suites at freeze: live pipeline, replay, succession (29/29),
   superheat — all passing.
 - StubCanonicalizer is a STUB (strips the planted marker token only); no run
-  under it may be described as SERAPH-governed.
+  under it may be described as governed by the preexisting design.
 
 ## Data identities (frozen)
 - Live population model: Qwen2.5-0.5B-Instruct Q4_K_M GGUF,
@@ -93,3 +94,13 @@ enters as Amendment 1 before any run it touches — it is NOT in v1.
 
 ## Addenda
 (none at freeze)
+
+### Amendment 1 — 2026-11-07 ~00:32 ET (naming redaction, operator ruling)
+Operator ruling: "If you aren't testing Seraph or Chandra they need to be out
+of the pre registration." Neither is under test in this study (the governed arm
+runs a labelled stub; the transcript scorer is an applied instrument, not a
+test subject). Both proper names are therefore removed from all
+preregistration surfaces (this document and the OSF fields text) and replaced
+with generic descriptions. No prediction, measure, criterion, code file, or
+hash in this freeze is changed by this amendment; harness code artefacts are
+untouched and their recorded hashes stand.
