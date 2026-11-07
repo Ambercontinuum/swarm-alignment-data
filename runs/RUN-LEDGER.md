@@ -91,3 +91,6 @@
 - 2026-11-07 grid backend=http-modal wave-modal cell=p5b condition=complete-p0.7-d0.02 seed=0 governed=False assignments=109 flip=False errors=0 wall_s=107 dir=2026-11-07-complete-p0.7-d0.02-0-live-modal-p5b
 - 2026-11-07 grid backend=http-modal wave-modal cell=gov-s1 condition=complete-p0.7-d0.02 seed=1 governed=True assignments=92 flip=False errors=0 wall_s=117 dir=2026-11-07-complete-p0.7-d0.02-1-live-modal-gov-s1
 - 2026-11-07 grid backend=http-modal wave-modal cell=ungov-s1 condition=complete-p0.7-d0.02 seed=1 governed=False assignments=60 flip=False errors=0 wall_s=109 dir=2026-11-07-complete-p0.7-d0.02-1-live-modal-ungov-s1
+- 2026-11-07 replay backend=http-modal wave-p6 variant=ungoverned seed=0 sealed_rounds=0 activation_round=None discovery_round=9 flip_round=None disc_to_flip=None disc_to_settle=3 assignments=165 final_top1_x_uniform=1.964 marker_delivered=0 errors=0 wall_s=446.6 dir=2026-11-07-replay-ungoverned-sealed0-0-http-modal
+- 2026-11-07 grid backend=http wave3 condition=complete-p0.7-d0.4 seed=0 assignments=42 flip=False errors=69 wall_s=1107 dir=2026-11-07-complete-p0.7-d0.4-0-live
+- 2026-11-07 grid backend=http wave3 condition=complete-p0.7-d0.2 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-complete-p0.7-d0.2-0-live
