@@ -14,7 +14,8 @@ _Target: 4–8 pages PDF on the official template; Limitations + Dual-Use append
 - This report's reframing (Amber, 2026-11-06): the reportable law is the flip condition, not the hub's identity — the degree, not the molecule.
 
 ## Related work [slot]
-[From the sprint Resources tab: Lee & Tiwari 2024 (prompt infection spread); Jones et al. 2025 (task splitting); Tilli 2026 (individual->system outcomes); Hammond et al. 2025 (multi-agent risk taxonomy). Full tab notes: sprint workspace RESOURCES-TAB-2026-11-06.md.]
+[From the sprint Resources tab: Lee & Tiwari 2024; Jones et al. 2025; Tilli 2026; Hammond et al. 2025. Full tab notes: sprint workspace RESOURCES-TAB-2026-11-06.md.]
+[NOVELTY CHECK 2026-11-06 (full report: sprint workspace NOVELTY-CHECK-2026-11-06.md): MUST CITE — METR/Redwood incident report (pressure explanation, component a); Hoffmann, "The message board was the vehicle" (Zenodo 2026) — CLOSEST work: channel load-bearing, "authority followed feedback density"; NO first-recognizer law, no sweep, no concentration metric, disclaims emergence claims; Alkur et al., "It Takes Two Stuck Agents" (Apart Collusion Sprint, Oct 2026) — stuck-peer effect experimental. STANDARD, cite as method: Alves (ICLR 2026 MALGAI) reply-network Gini; Papachristou & Yuan (PNAS Nexus 2025) preferential attachment in LLM link formation; Roger & Greenblatt paraphrasing/signal-jamming (technique family for h). RIVAL ACCOUNT: Dochkina 2026 — hierarchies scale with capability on designed protocols. UNCLAIMED per the check: (c)+(d) as causal law; (e) pressure x discoverability x topology transition sweep; (g) intermediate-discoverability peak; share x N for assignments; (h) as a tested intervention on the emergent channel.]
 
 ## 2. Hypothesis and predictions
 - Leadership as percolation + preferential attachment: pressure (tasks impossible as specified) × pore (intended vs actual communication graph) × discoverability.

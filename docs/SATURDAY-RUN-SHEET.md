@@ -10,7 +10,7 @@ _All Muse-side runs are PRELIMINARY until the IDE replica certifies them. One RU
    - P2: no-pore control at matched pressure (expect ~zero assignments).
    - P3: topology set at the d where P1 concentration peaks: chain / star / complete.
    - P4: governed arm (SERAPH canonicalization on the board channel) at the same cell as P3's complete — criterion = reduction vs ungoverned (mock bound: flips 1.0 → 0.5–0.6 under weaker mock governance).
-   - P5 (stretch): budget-rotation cells (highest-budget agent NOT the discoverer).
+   - P5 (PROMOTED — decisive test of the founder refinement): budget-rotation cells — founder positioned but LOW budget with a high-budget non-discoverer present, plus founder-high-budget control. Readout = SUCCESSION measure: settled hub identity vs founder, settle time, capacity ranks. Prediction P5 registered in the reconstruction protocol.
 4. **Parallel (Muse-side, all day)** — Arm B completion: Footprint directed-talk curve final pass; Swarm Traces corpus-level analysis (no succession claims); CHANDRA series final.
 5. **Replica window (whenever Amber is at the IDE)** — Codex runs: sweep byte-diff, calibration spot replication, one P1 cell replication. Certified results graduate to this repo's runs/.
 6. **Adaption (only if calibration passes and time remains)** — estimate-priced invent of task variants; AutoScientist SFT is stretch-only and must launch by early afternoon to finish inside the freeze (runs take ~a couple of hours).
