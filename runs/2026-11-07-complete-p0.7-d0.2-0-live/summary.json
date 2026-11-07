@@ -1,0 +1,86 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.2,
+    "seed": 0,
+    "discoverer_position": 0,
+    "budgets": null,
+    "plant_marker": true,
+    "governed": false,
+    "board_announced": false,
+    "condition": "complete-p0.7-d0.2"
+  },
+  "backend": "http",
+  "canonicalizer": "identity (ungoverned)",
+  "discovery_round": null,
+  "discoverer_first_use_round": null,
+  "total_posts": 0,
+  "total_assignments": 0,
+  "marker_assignments_delivered": 0,
+  "assignments_per_agent": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0
+  },
+  "top1_share_series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gini_series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "flip": false,
+  "flip_round": null,
+  "hub": null,
+  "hub_is_first_discoverer": null,
+  "board_users": [],
+  "marker_exposure_round": {
+    "0": 0
+  },
+  "marker_penetration_by_distance": {
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    },
+    "1": {
+      "agents": 11,
+      "exposed": 0,
+      "fraction": 0.0
+    }
+  },
+  "events": []
+}

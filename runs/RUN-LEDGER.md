@@ -79,3 +79,8 @@
 - 2026-11-07 replay backend=mock variant=ungoverned seed=4 sealed_rounds=16 activation_round=25 discovery_round=25 flip_round=None disc_to_flip=None disc_to_settle=8 assignments=124 final_top1_x_uniform=1.161 marker_delivered=110 dir=2026-11-07-replay-ungoverned-sealed16-4-mock
 - 2026-11-07 replay backend=http variant=ungoverned seed=0 sealed_rounds=0 activation_round=None discovery_round=9 flip_round=None disc_to_flip=None disc_to_settle=3 assignments=82 final_top1_x_uniform=1.902 marker_delivered=0 dir=2026-11-07-replay-ungoverned-0-http
 - 2026-11-07 grid backend=http wave1 condition=complete-p0.7-d0.02 seed=0 assignments=80 flip=False errors=0 wall_s=3266 dir=2026-11-07-complete-p0.7-d0.02-0-live
+- 2026-11-07 grid backend=http wave1 condition=complete-p0.7-d0.05 seed=0 assignments=100 flip=False errors=5 wall_s=3453 dir=2026-11-07-complete-p0.7-d0.05-0-live-wave1
+- 2026-11-07 grid backend=http wave1 condition=complete-p0.7-d0.1 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-complete-p0.7-d0.1-0-live
+- 2026-11-07 grid backend=http wave1 condition=complete-p0.7-d0.2 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-complete-p0.7-d0.2-0-live
+- 2026-11-07 grid backend=http wave1 condition=complete-p0.7-d0.4 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-complete-p0.7-d0.4-0-live
+- 2026-11-07 grid backend=http wave1 condition=none-p0.7-d0.0 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-none-p0.7-d0.0-0-live
