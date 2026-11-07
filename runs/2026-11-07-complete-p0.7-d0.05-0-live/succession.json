@@ -1,0 +1,143 @@
+{
+  "n_agents": 12,
+  "n_rounds": 23,
+  "discovery_round": 6,
+  "founder": 11,
+  "first_lead_round": 6,
+  "top_series": [
+    {
+      "round": 6,
+      "top": 11
+    },
+    {
+      "round": 8,
+      "top": 11
+    },
+    {
+      "round": 9,
+      "top": 3
+    },
+    {
+      "round": 10,
+      "top": 3
+    },
+    {
+      "round": 11,
+      "top": 3
+    },
+    {
+      "round": 12,
+      "top": 3
+    },
+    {
+      "round": 13,
+      "top": 3
+    },
+    {
+      "round": 14,
+      "top": 3
+    },
+    {
+      "round": 15,
+      "top": 3
+    },
+    {
+      "round": 16,
+      "top": 3
+    },
+    {
+      "round": 17,
+      "top": 3
+    },
+    {
+      "round": 18,
+      "top": 3
+    },
+    {
+      "round": 19,
+      "top": 3
+    },
+    {
+      "round": 20,
+      "top": 3
+    },
+    {
+      "round": 21,
+      "top": 3
+    },
+    {
+      "round": 22,
+      "top": 3
+    },
+    {
+      "round": 23,
+      "top": 3
+    },
+    {
+      "round": 24,
+      "top": 3
+    },
+    {
+      "round": 25,
+      "top": 3
+    },
+    {
+      "round": 26,
+      "top": 3
+    },
+    {
+      "round": 27,
+      "top": 3
+    },
+    {
+      "round": 28,
+      "top": 3
+    },
+    {
+      "round": 29,
+      "top": 3
+    }
+  ],
+  "succession_events": [
+    {
+      "round": 9,
+      "from": 11,
+      "to": 3
+    }
+  ],
+  "n_succession_events": 1,
+  "settled": true,
+  "settle_round": 9,
+  "settle_lag_rounds": 3,
+  "settled_hub": 3,
+  "founder_is_settled_hub": false,
+  "final_counts": {
+    "0": 1,
+    "1": 0,
+    "2": 5,
+    "3": 10,
+    "4": 1,
+    "5": 10,
+    "6": 10,
+    "7": 9,
+    "8": 4,
+    "9": 10,
+    "10": 10,
+    "11": 9
+  },
+  "budgets_configured": true,
+  "founder_budget": 10.0,
+  "founder_budget_rank": 2,
+  "founder_has_higher_capacity_rival": true,
+  "settled_hub_budget": 10.0,
+  "settled_hub_budget_rank": 2,
+  "hub_budget_gt_founder_budget": false,
+  "run_label": {
+    "backend": "mock",
+    "condition": "complete-p0.7-d0.05",
+    "seed": 0,
+    "governed": false,
+    "positioned_discoverer": 0
+  },
+  "run_dir": "2026-11-07-complete-p0.7-d0.05-0-live"
+}
