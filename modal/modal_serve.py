@@ -21,7 +21,10 @@ GGUF_SHA = "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db"
 MODEL_PATH = "/models/qwen2.5-0.5b-instruct-q4_k_m.gguf"
 
 app = modal.App("swarm-llm")
-image = modal.Image.from_registry("ghcr.io/ggml-org/llama.cpp:server-cuda")
+# The llama.cpp image ships no Python, and Modal runs its agent with
+# Python inside the image — add python3 (+ curl for the model fetch).
+image = (modal.Image.from_registry("ghcr.io/ggml-org/llama.cpp:server-cuda")
+         .apt_install("python3", "curl"))
 volume = modal.Volume.from_name("swarm-llm-models", create_if_missing=True)
 
 
