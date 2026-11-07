@@ -101,3 +101,6 @@
 - 2026-11-07 grid backend=http-modal wave-topology2 condition=chain-p0.7-d0.05 seed=0 governed=False assignments=118 flip=False errors=0 wall_s=193.6 dir=2026-11-07-chain-p0.7-d0.05-0-live-modal-topo2
 - 2026-11-07 grid backend=http-modal wave-topology2 condition=star-p0.7-d0.05 seed=0 governed=False assignments=131 flip=False errors=0 wall_s=100.1 dir=2026-11-07-star-p0.7-d0.05-0-live-modal-topo2
 - 2026-11-07 grid backend=http-modal wave-topology2 condition=chain-p0.7-d0.1 seed=0 governed=False assignments=98 flip=False errors=0 wall_s=135.0 dir=2026-11-07-chain-p0.7-d0.1-0-live-modal-topo2
+- 2026-11-07 grid backend=http-modal wave-topology2 condition=star-p0.7-d0.1 seed=0 governed=False assignments=119 flip=False errors=0 wall_s=94.3 dir=2026-11-07-star-p0.7-d0.1-0-live-modal-topo2
+- 2026-11-07 grid backend=http-modal wave-topology2 condition=chain-p0.7-d0.02 seed=1 governed=False assignments=113 flip=False errors=0 wall_s=197.3 dir=2026-11-07-chain-p0.7-d0.02-1-live-modal-topo2
+- 2026-11-07 grid backend=http-modal wave-topology2 condition=star-p0.7-d0.02 seed=1 governed=False assignments=119 flip=False errors=0 wall_s=94.7 dir=2026-11-07-star-p0.7-d0.02-1-live-modal-topo2
