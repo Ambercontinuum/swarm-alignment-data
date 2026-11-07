@@ -1,0 +1,1185 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "star",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "seed": 2,
+    "discoverer_position": 2,
+    "budgets": null,
+    "plant_marker": true,
+    "governed": false,
+    "board_announced": false,
+    "condition": "star-p0.7-d0.02"
+  },
+  "backend": "http-modal",
+  "canonicalizer": "identity (ungoverned)",
+  "discovery_round": 0,
+  "discoverer_first_use_round": 0,
+  "total_posts": 120,
+  "total_assignments": 120,
+  "marker_assignments_delivered": 0,
+  "assignments_per_agent": {
+    "0": 2,
+    "1": 8,
+    "2": 12,
+    "3": 11,
+    "4": 9,
+    "5": 12,
+    "6": 9,
+    "7": 12,
+    "8": 12,
+    "9": 12,
+    "10": 11,
+    "11": 10
+  },
+  "top1_share_series": [
+    0.083,
+    0.087,
+    0.094,
+    0.095,
+    0.096,
+    0.097,
+    0.099,
+    0.1,
+    0.099,
+    0.099,
+    0.099,
+    0.1
+  ],
+  "gini_series": [
+    0.0,
+    0.0399,
+    0.0833,
+    0.0913,
+    0.0929,
+    0.1048,
+    0.1185,
+    0.1187,
+    0.1145,
+    0.1196,
+    0.1239,
+    0.1306
+  ],
+  "flip": false,
+  "flip_round": null,
+  "hub": 2,
+  "hub_is_first_discoverer": false,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_exposure_round": {
+    "2": 0
+  },
+  "marker_penetration_by_distance": {
+    "1": {
+      "agents": 1,
+      "exposed": 0,
+      "fraction": 0.0
+    },
+    "2": {
+      "agents": 10,
+      "exposed": 0,
+      "fraction": 0.0
+    },
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    }
+  },
+  "events": [
+    {
+      "round": 0,
+      "author": 0,
+      "kind": "assignment",
+      "text": "hello world!  to assign work via the board",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Hello, team! We have a new project to work on. Please provide feedback on the first draft.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Hello, team! We're working on a shared task that's impossible for a solo agent.",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Hello, let's start the team work.",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team.",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11.",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 0,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Hello, team! We have a new project to work on. Please provide feedback on the first draft.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment.",
+      "target": 2,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message>  to assign work via the board",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team.",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment   to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team.",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11   to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Hello, team! We have a new project to work on. Please provide feedback on the first draft.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello team! we're working on a shared task that's impossible for a solo agent.",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team.",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11 to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 1,
+      "kind": "assignment",
+      "text": "Hello, team! We have a new project to work on. Please provide feedback on the first draft.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello team! we're working on a shared task that's impossible for a solo agent.",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11 to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello team! we're working on a shared task that's impossible for a solo agent.",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Hello, let's start the team work.",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello team! we're working on a shared task that's impossible for a solo agent.",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Hello, let's start the team work. POST: 2 Hello, let's start the team work.",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11 to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 1,
+      "kind": "assignment",
+      "text": "hello team! we have a new project to work on. please provide feedback on the first draft",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello team! we're working on a shared task that's impossible for a solo agent.",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11 to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello team! we're working on a shared task that's impossible for a solo agent.",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Hello, let's start the team work. POST: 2 Hello, let's start the team work.",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11 to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is Agent 1's assignment to assign work via the board",
+      "target": 2,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team! This is work for Round 0. Feel free to come and join us.",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello team! we're working on a shared task that's impossible for a solo agent!",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello this is the first message from agent 11 to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 3,
+      "kind": "assignment",
+      "text": "hello team! This is work for Round 0. Feel free to come and join us.",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Hello, let's start the team work. POST: 2 Hello, let's start the team work.",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 7,
+      "kind": "assignment",
+      "text": "Hello, Team! We need a joint work product to complete our shared task.",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 8,
+      "kind": "assignment",
+      "text": "Hello, this is a work product for the team",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello world! to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, this is the first message from agent 11 to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    }
+  ]
+}
