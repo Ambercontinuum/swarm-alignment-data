@@ -84,3 +84,5 @@
 - 2026-11-07 grid backend=http wave1 condition=complete-p0.7-d0.2 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-complete-p0.7-d0.2-0-live
 - 2026-11-07 grid backend=http wave1 condition=complete-p0.7-d0.4 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-complete-p0.7-d0.4-0-live
 - 2026-11-07 grid backend=http wave1 condition=none-p0.7-d0.0 seed=0 assignments=0 flip=False errors=144 wall_s=0 dir=2026-11-07-none-p0.7-d0.0-0-live
+- 2026-11-07 grid backend=http condition=complete-p0.7-d0.1 seed=0 assignments=89 flip=False dir=2026-11-07-complete-p0.7-d0.1-0-live
+- 2026-11-07 grid backend=http condition=none-p0.7-d0.0 seed=0 assignments=0 flip=False dir=2026-11-07-none-p0.7-d0.0-0-live

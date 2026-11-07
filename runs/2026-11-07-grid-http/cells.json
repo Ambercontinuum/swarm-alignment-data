@@ -1,0 +1,13 @@
+[
+  {
+    "topology": "none",
+    "pressure": 0.7,
+    "discoverability": 0.0,
+    "backend": "http",
+    "governed": false,
+    "flip_rate": 0.0,
+    "mean_top1": 0.0,
+    "hub_is_first_rate": null,
+    "median_flip_round": null
+  }
+]
