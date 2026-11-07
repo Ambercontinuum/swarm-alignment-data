@@ -98,3 +98,5 @@
 - 2026-11-07 grid backend=http-modal wave-topology cell=chain condition=chain-p0.7-d0.02 seed=0 governed=False assignments=101 flip=False errors=31 wall_s=165.9 dir=2026-11-07-chain-p0.7-d0.02-0-live-modal
 - 2026-11-07 grid backend=http-modal wave-topology cell=star condition=star-p0.7-d0.02 seed=0 governed=False assignments=128 flip=False errors=0 wall_s=85.6 dir=2026-11-07-star-p0.7-d0.02-0-live-modal
 - 2026-11-07 replay backend=http-modal wave-p6 variant=ungoverned seed=0 sealed_rounds=16 activation_round=25 discovery_round=9 flip_round=None disc_to_flip=None disc_to_settle=18 assignments=100 final_top1_x_uniform=1.68 marker_delivered=0 errors=0 wall_s=300.2 dir=2026-11-07-replay-ungoverned-sealed16-0-http-modal
+- 2026-11-07 grid backend=http-modal wave-topology2 condition=chain-p0.7-d0.05 seed=0 governed=False assignments=118 flip=False errors=0 wall_s=193.6 dir=2026-11-07-chain-p0.7-d0.05-0-live-modal-topo2
+- 2026-11-07 grid backend=http-modal wave-topology2 condition=star-p0.7-d0.05 seed=0 governed=False assignments=131 flip=False errors=0 wall_s=100.1 dir=2026-11-07-star-p0.7-d0.05-0-live-modal-topo2
