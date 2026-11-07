@@ -1,0 +1,595 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "seed": 0,
+    "discoverer_position": 0,
+    "budgets": null,
+    "plant_marker": true,
+    "governed": false,
+    "board_announced": false,
+    "condition": "complete-p0.7-d0.02"
+  },
+  "backend": "http",
+  "canonicalizer": "identity (ungoverned)",
+  "discovery_round": 0,
+  "discoverer_first_use_round": 0,
+  "total_posts": 55,
+  "total_assignments": 53,
+  "marker_assignments_delivered": 0,
+  "assignments_per_agent": {
+    "0": 6,
+    "1": 5,
+    "2": 4,
+    "3": 5,
+    "4": 3,
+    "5": 4,
+    "6": 6,
+    "7": 6,
+    "8": 1,
+    "9": 5,
+    "10": 3,
+    "11": 5
+  },
+  "top1_share_series": [
+    0.2,
+    0.182,
+    0.118,
+    0.13,
+    0.148,
+    0.133,
+    0.129,
+    0.135,
+    0.128,
+    0.111,
+    0.122,
+    0.113
+  ],
+  "gini_series": [
+    0.5833,
+    0.2348,
+    0.1716,
+    0.2138,
+    0.2253,
+    0.2278,
+    0.2392,
+    0.2095,
+    0.1987,
+    0.15,
+    0.1718,
+    0.1745
+  ],
+  "flip": false,
+  "flip_round": null,
+  "hub": 0,
+  "hub_is_first_discoverer": true,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_exposure_round": {
+    "0": 0
+  },
+  "marker_penetration_by_distance": {
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    },
+    "1": {
+      "agents": 11,
+      "exposed": 0,
+      "fraction": 0.0
+    }
+  },
+  "events": [
+    {
+      "round": 0,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 1,
+      "kind": "assignment",
+      "text": "hello, team!",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, team!",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello, team! POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 11,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 1,
+      "kind": "assignment",
+      "text": "\"Hello, team!\" to assign work via the board",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 3,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 6,
+      "kind": "assignment",
+      "text": "\"Hello, team!\" to assign work via the board",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 0,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 3,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 7,
+      "kind": "assignment",
+      "text": "\"Hello, team!\" to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 11,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 0,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 3,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 4,
+      "kind": "note",
+      "text": "hello, team!",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 0,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 1,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 9,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 3,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 0,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 1,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 2,
+      "kind": "note",
+      "text": "hello, team!",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 9,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 10,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 11,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 0,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello, team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello, team! to assign work via the board",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 7,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 1,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 6,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 9,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 11,
+      "kind": "assignment",
+      "text": "POST: hello, team!",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+ "n_agents": 12,
+ "n_rounds": 12,
+ "discovery_round": 0,
+ "founder": 0,
+ "first_lead_round": 1,
+ "top_series": [
+  {
+   "round": 0,
+   "top": null
+  },
+  {
+   "round": 1,
+   "top": 11
+  },
+  {
+   "round": 2,
+   "top": 11
+  },
+  {
+   "round": 3,
+   "top": 11
+  },
+  {
+   "round": 4,
+   "top": 3
+  },
+  {
+   "round": 5,
+   "top": 3
+  },
+  {
+   "round": 6,
+   "top": 3
+  },
+  {
+   "round": 7,
+   "top": 7
+  },
+  {
+   "round": 8,
+   "top": 7
+  },
+  {
+   "round": 9,
+   "top": 7
+  },
+  {
+   "round": 10,
+   "top": 7
+  },
+  {
+   "round": 11,
+   "top": 7
+  }
+ ],
+ "succession_events": [
+  {
+   "round": 4,
+   "from": 11,
+   "to": 3
+  },
+  {
+   "round": 7,
+   "from": 3,
+   "to": 7
+  }
+ ],
+ "n_succession_events": 2,
+ "settled": true,
+ "settle_round": 7,
+ "settle_lag_rounds": 7,
+ "settled_hub": 7,
+ "founder_is_settled_hub": false,
+ "final_counts": {
+  "0": 6,
+  "1": 5,
+  "2": 4,
+  "3": 5,
+  "4": 3,
+  "5": 4,
+  "6": 6,
+  "7": 6,
+  "8": 1,
+  "9": 5,
+  "10": 3,
+  "11": 5
+ },
+ "budgets_configured": false,
+ "founder_budget": null,
+ "founder_budget_rank": null,
+ "founder_has_higher_capacity_rival": null,
+ "settled_hub_budget": null,
+ "settled_hub_budget_rank": null,
+ "hub_budget_gt_founder_budget": null,
+ "run_label": {
+  "backend": "http",
+  "condition": "complete-p0.7-d0.02",
+  "seed": 0,
+  "governed": false,
+  "positioned_discoverer": 0
+ }
+}
