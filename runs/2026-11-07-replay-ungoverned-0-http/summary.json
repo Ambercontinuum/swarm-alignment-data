@@ -1,0 +1,1582 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 24,
+    "pore_round": 9,
+    "stage2_round": 17,
+    "sealed_rounds": 0,
+    "pressure": 0.7,
+    "discoverability": 0.05,
+    "seed": 0,
+    "discoverer_position": 0,
+    "governed": false,
+    "plant_marker": true,
+    "variant": "ungoverned",
+    "stage_timeline": "stage 0 (isolation, no board) rounds 1\u20138; stage 1 (pore present, undiscovered) rounds 9\u201316; stage 2 (accumulation) rounds 17\u201324"
+  },
+  "backend": "http",
+  "canonicalizer_final": "identity (ungoverned)",
+  "discovery_round": 9,
+  "discovery_stage": 1,
+  "first_discoverer": 0,
+  "discoverer_first_use_round": 9,
+  "governance_activation_round": null,
+  "total_posts": 103,
+  "posts_by_stage": {
+    "0": 0,
+    "1": 59,
+    "2": 44
+  },
+  "assignments_by_stage": {
+    "0": 0,
+    "1": 48,
+    "2": 34
+  },
+  "total_assignments": 82,
+  "marker_assignments_delivered": 0,
+  "assignments_per_agent": {
+    "0": 13,
+    "1": 4,
+    "2": 7,
+    "3": 8,
+    "4": 7,
+    "5": 9,
+    "6": 5,
+    "7": 6,
+    "8": 6,
+    "9": 8,
+    "10": 3,
+    "11": 6
+  },
+  "series": [
+    {
+      "round": 1,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 2,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 3,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 4,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 5,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 6,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 7,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 8,
+      "stage": 0,
+      "assignments_per_agent": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "new_assignments": 0,
+      "cum_assignments": 0,
+      "top1_share": 0.0,
+      "top1_x_uniform": 0.0,
+      "gini": 0.0
+    },
+    {
+      "round": 9,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 0,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1
+      },
+      "new_assignments": 11,
+      "cum_assignments": 11,
+      "top1_share": 0.0909,
+      "top1_x_uniform": 1.091,
+      "gini": 0.0833
+    },
+    {
+      "round": 10,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 2,
+        "1": 1,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 0,
+        "8": 1,
+        "9": 2,
+        "10": 2,
+        "11": 2
+      },
+      "new_assignments": 6,
+      "cum_assignments": 17,
+      "top1_share": 0.1176,
+      "top1_x_uniform": 1.412,
+      "gini": 0.2304
+    },
+    {
+      "round": 11,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 3,
+        "1": 1,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 3,
+        "6": 1,
+        "7": 0,
+        "8": 1,
+        "9": 2,
+        "10": 2,
+        "11": 2
+      },
+      "new_assignments": 4,
+      "cum_assignments": 21,
+      "top1_share": 0.1429,
+      "top1_x_uniform": 1.714,
+      "gini": 0.2897
+    },
+    {
+      "round": 12,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 4,
+        "1": 2,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 3,
+        "6": 2,
+        "7": 1,
+        "8": 2,
+        "9": 2,
+        "10": 2,
+        "11": 3
+      },
+      "new_assignments": 6,
+      "cum_assignments": 27,
+      "top1_share": 0.1481,
+      "top1_x_uniform": 1.778,
+      "gini": 0.1944
+    },
+    {
+      "round": 13,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 5,
+        "1": 2,
+        "2": 3,
+        "3": 3,
+        "4": 1,
+        "5": 3,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 3,
+        "10": 2,
+        "11": 3
+      },
+      "new_assignments": 4,
+      "cum_assignments": 31,
+      "top1_share": 0.1613,
+      "top1_x_uniform": 1.935,
+      "gini": 0.1855
+    },
+    {
+      "round": 14,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 6,
+        "1": 2,
+        "2": 4,
+        "3": 4,
+        "4": 2,
+        "5": 4,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 4,
+        "10": 2,
+        "11": 3
+      },
+      "new_assignments": 6,
+      "cum_assignments": 37,
+      "top1_share": 0.1622,
+      "top1_x_uniform": 1.946,
+      "gini": 0.2095
+    },
+    {
+      "round": 15,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 7,
+        "1": 2,
+        "2": 5,
+        "3": 4,
+        "4": 3,
+        "5": 5,
+        "6": 2,
+        "7": 3,
+        "8": 2,
+        "9": 4,
+        "10": 3,
+        "11": 4
+      },
+      "new_assignments": 7,
+      "cum_assignments": 44,
+      "top1_share": 0.1591,
+      "top1_x_uniform": 1.909,
+      "gini": 0.2121
+    },
+    {
+      "round": 16,
+      "stage": 1,
+      "assignments_per_agent": {
+        "0": 7,
+        "1": 2,
+        "2": 6,
+        "3": 4,
+        "4": 3,
+        "5": 6,
+        "6": 2,
+        "7": 3,
+        "8": 3,
+        "9": 5,
+        "10": 3,
+        "11": 4
+      },
+      "new_assignments": 4,
+      "cum_assignments": 48,
+      "top1_share": 0.1458,
+      "top1_x_uniform": 1.75,
+      "gini": 0.2188
+    },
+    {
+      "round": 17,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 8,
+        "1": 2,
+        "2": 6,
+        "3": 5,
+        "4": 4,
+        "5": 7,
+        "6": 2,
+        "7": 4,
+        "8": 3,
+        "9": 6,
+        "10": 3,
+        "11": 4
+      },
+      "new_assignments": 6,
+      "cum_assignments": 54,
+      "top1_share": 0.1481,
+      "top1_x_uniform": 1.778,
+      "gini": 0.2315
+    },
+    {
+      "round": 18,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 9,
+        "1": 2,
+        "2": 6,
+        "3": 6,
+        "4": 4,
+        "5": 7,
+        "6": 3,
+        "7": 5,
+        "8": 3,
+        "9": 7,
+        "10": 3,
+        "11": 4
+      },
+      "new_assignments": 5,
+      "cum_assignments": 59,
+      "top1_share": 0.1525,
+      "top1_x_uniform": 1.831,
+      "gini": 0.2302
+    },
+    {
+      "round": 19,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 9,
+        "1": 2,
+        "2": 6,
+        "3": 7,
+        "4": 5,
+        "5": 8,
+        "6": 4,
+        "7": 5,
+        "8": 4,
+        "9": 7,
+        "10": 3,
+        "11": 5
+      },
+      "new_assignments": 6,
+      "cum_assignments": 65,
+      "top1_share": 0.1385,
+      "top1_x_uniform": 1.662,
+      "gini": 0.2064
+    },
+    {
+      "round": 20,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 10,
+        "1": 2,
+        "2": 7,
+        "3": 7,
+        "4": 5,
+        "5": 8,
+        "6": 5,
+        "7": 5,
+        "8": 5,
+        "9": 7,
+        "10": 3,
+        "11": 5
+      },
+      "new_assignments": 4,
+      "cum_assignments": 69,
+      "top1_share": 0.1449,
+      "top1_x_uniform": 1.739,
+      "gini": 0.1969
+    },
+    {
+      "round": 21,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 11,
+        "1": 2,
+        "2": 7,
+        "3": 7,
+        "4": 6,
+        "5": 8,
+        "6": 5,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 3,
+        "11": 5
+      },
+      "new_assignments": 3,
+      "cum_assignments": 72,
+      "top1_share": 0.1528,
+      "top1_x_uniform": 1.833,
+      "gini": 0.2014
+    },
+    {
+      "round": 22,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 12,
+        "1": 2,
+        "2": 7,
+        "3": 7,
+        "4": 7,
+        "5": 8,
+        "6": 5,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 3,
+        "11": 6
+      },
+      "new_assignments": 3,
+      "cum_assignments": 75,
+      "top1_share": 0.16,
+      "top1_x_uniform": 1.92,
+      "gini": 0.2033
+    },
+    {
+      "round": 23,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 13,
+        "1": 3,
+        "2": 7,
+        "3": 8,
+        "4": 7,
+        "5": 9,
+        "6": 5,
+        "7": 5,
+        "8": 6,
+        "9": 8,
+        "10": 3,
+        "11": 6
+      },
+      "new_assignments": 5,
+      "cum_assignments": 80,
+      "top1_share": 0.1625,
+      "top1_x_uniform": 1.95,
+      "gini": 0.2125
+    },
+    {
+      "round": 24,
+      "stage": 2,
+      "assignments_per_agent": {
+        "0": 13,
+        "1": 4,
+        "2": 7,
+        "3": 8,
+        "4": 7,
+        "5": 9,
+        "6": 5,
+        "7": 6,
+        "8": 6,
+        "9": 8,
+        "10": 3,
+        "11": 6
+      },
+      "new_assignments": 2,
+      "cum_assignments": 82,
+      "top1_share": 0.1585,
+      "top1_x_uniform": 1.902,
+      "gini": 0.1931
+    }
+  ],
+  "flip": false,
+  "flip_round": null,
+  "final_top1_share": 0.1585,
+  "final_top1_x_uniform": 1.902,
+  "final_gini": 0.1931,
+  "peak_top1_x_uniform": 1.95,
+  "hub": 0,
+  "hub_is_first_discoverer": true,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_penetration_by_distance": {
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    },
+    "1": {
+      "agents": 11,
+      "exposed": 0,
+      "fraction": 0.0
+    }
+  },
+  "events": [
+    {
+      "round": 8,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 1,
+      "kind": "assignment",
+      "text": "hello this is my first attempt at working on this task",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 2,
+      "kind": "assignment",
+      "text": "hello this is my first attempt at working on this task",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 5,
+      "kind": "assignment",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 10,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 11,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message> hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 6,
+      "kind": "note",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 10,
+      "kind": "assignment",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 11,
+      "kind": "assignment",
+      "text": "<message> Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message>  to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 4,
+      "kind": "note",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 9,
+      "kind": "note",
+      "text": "8 hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 10,
+      "kind": "note",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 2,
+      "kind": "note",
+      "text": "8 hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 3,
+      "kind": "note",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 6,
+      "kind": "assignment",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 9,
+      "kind": "note",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 11,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message> hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 4,
+      "kind": "note",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 12,
+      "author": 9,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message>  ASSIGN: 11 <message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 3,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message>  ASSIGN: 9 <message>",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 13,
+      "author": 10,
+      "kind": "note",
+      "text": "10 <message>  ASSIGN: 0 <message>",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message>  ASSIGN: 8 <message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 9,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 10,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 14,
+      "author": 11,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message>  ASSIGN: 8 <message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 15,
+      "author": 11,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 1,
+      "kind": "note",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 2,
+      "kind": "note",
+      "text": "Hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 16,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 5,
+      "kind": "note",
+      "text": "to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 6,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 17,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 2,
+      "kind": "note",
+      "text": "to post a note to the board to do nothing this round",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 6,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 7,
+      "kind": "note",
+      "text": "<message> to post a note to the board to do nothing this round",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 18,
+      "author": 11,
+      "kind": "assignment",
+      "text": "hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 6,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 19,
+      "author": 9,
+      "kind": "note",
+      "text": "9 hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 3,
+      "kind": "note",
+      "text": "8 hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message>  to assign work via the board",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 20,
+      "author": 11,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 1,
+      "kind": "note",
+      "text": "8 hello, this is my first attempt at working on this task. It's part of a project.",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 21,
+      "author": 11,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message>  ASSIGN: 1 <message>  PASS",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 22,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message>  to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 6,
+      "kind": "note",
+      "text": "<message> to post a note to the board to do nothing this round",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 23,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message>  PASS",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    }
+  ],
+  "activation_round": null,
+  "activation_to_discovery_latency": null,
+  "discovery_to_flip_latency": null,
+  "settled_hub": 0,
+  "founder_is_settled_hub": true,
+  "settled": true,
+  "settle_round": 12,
+  "discovery_to_settle_latency": 3,
+  "n_succession_events": 0,
+  "succession_events": [],
+  "post_activation_velocity_5": null,
+  "post_activation_peak_5": null,
+  "post_discovery_velocity_5": 6.2,
+  "post_discovery_peak_5": 11
+}
