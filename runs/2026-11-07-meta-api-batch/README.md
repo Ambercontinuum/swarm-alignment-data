@@ -25,9 +25,17 @@ The model change is prospectively authorized by Amber for Arm A2; this committed
 | d010 | completed | 2 | 6.0 | unsettled | 0 | 367cc559a47977f0aba9e0c0680b7de1510c3e81 |
 | gov | completed | 16 | 8.25 | founder | 0 | 341355672000cf3110ced3abd4df10b3f95e957e |
 | ungov-s1 | completed | 11 | 12.0 | successor | 0 | 7ee1f77a99180025b133927a117051f0d47c5c26 |
-| gov-s1 | completed | 8 | 12.0 | successor | 0 | pending |
-| p5a | not started | — | — | — | — | — |
+| gov-s1 | completed | 8 | 12.0 | successor | 0 | 30e4fab0b72eadec5cea876becb13cbb90770e3f |
+| p5a | stopped on API error | — | — | — | 1 | pending |
 | p5b | not started | — | — | — | — | — |
 
-Status: **in progress**.
-Total observed backend errors: **0**.
+Status: **stopped**.
+Total observed backend errors: **1**.
+
+## Exact stop error
+
+```text
+RemoteDisconnected: Remote end closed connection without response
+```
+
+The interrupted cell has no completed summary. No later cells were started.

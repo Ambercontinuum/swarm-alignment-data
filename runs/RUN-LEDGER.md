@@ -159,3 +159,5 @@
 - 2026-11-08T05:17:40.084924+00:00 COMPLETED arm=A2 model=muse-spark-1.3 cell=ungov-s1; assignments=11; concentration=12.0; hub_class=successor; directory=2026-11-08-complete-p0.7-d0.02-1-meta-ungov-s1
 
 - 2026-11-08T05:48:44.937582+00:00 COMPLETED arm=A2 model=muse-spark-1.3 cell=gov-s1; assignments=8; concentration=12.0; hub_class=successor; directory=2026-11-08-complete-p0.7-d0.02-1-meta-gov-s1
+
+- 2026-11-08T06:40:34.908045+00:00 STOPPED arm=A2 cell=p5a; exact error in batch index; no retry or subsequent cells.

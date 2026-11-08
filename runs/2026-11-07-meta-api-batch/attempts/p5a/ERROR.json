@@ -1,0 +1,7 @@
+{
+  "cell": "p5a",
+  "at": "2026-11-08T06:40:34.880044+00:00",
+  "error": "RemoteDisconnected: Remote end closed connection without response",
+  "request_attempts": 133,
+  "policy": "Stopped immediately; no retry or model/payload substitution"
+}
