@@ -1,0 +1,65 @@
+{
+  "original_filename": "adapter_model.safetensors",
+  "size": 130969208,
+  "sha256": "65beee1cce251d5a437910f78fd757762999fdf0d9030ec490646a8566e3d67e",
+  "encoding": "base64",
+  "line_wrapping": "76 Base64 characters per line, LF endings; concatenate parts in listed order and decode ignoring ASCII whitespace",
+  "part_size_limit_bytes": 20000000,
+  "parts": [
+    {
+      "filename": "adapter_model.safetensors.b64.part01",
+      "size": 19999980,
+      "sha256": "9d2ec8f1990707d8063257105bc36c238088dce55943e97d3b5dc4928820efec"
+    },
+    {
+      "filename": "adapter_model.safetensors.b64.part02",
+      "size": 19999980,
+      "sha256": "5c5f75a31cb40ba414e5dc69c1fccf15b34d8211b4a09283f813a7296da21214"
+    },
+    {
+      "filename": "adapter_model.safetensors.b64.part03",
+      "size": 19999980,
+      "sha256": "fe97739ad01cb5671bc2c4b5e15a184427ccff27e9ca4f257d088d356f5c21c3"
+    },
+    {
+      "filename": "adapter_model.safetensors.b64.part04",
+      "size": 19999980,
+      "sha256": "6e6665b27d4cab6fb7e639937eaafe3fc1b7536a35b74b58cefd0232ce7fe4e0"
+    },
+    {
+      "filename": "adapter_model.safetensors.b64.part05",
+      "size": 19999980,
+      "sha256": "5b2ab4acf0a35ef5ce3f5ba23544219a417fd012cf0fb84f00df1bb716e02993"
+    },
+    {
+      "filename": "adapter_model.safetensors.b64.part06",
+      "size": 19999980,
+      "sha256": "48f789774d2b3a4263beb4f74a757d0050d0ce38c053acf6662c369aa441c17f"
+    },
+    {
+      "filename": "adapter_model.safetensors.b64.part07",
+      "size": 19999980,
+      "sha256": "99d6ebdb27a989f6a7d37a76317e07f555ae98dc7d2d11b5f8a50b5f36797d4a"
+    },
+    {
+      "filename": "adapter_model.safetensors.b64.part08",
+      "size": 19999980,
+      "sha256": "83d9a5e74a666030530f06cf54e73c282f3b10e0ae11987855c2cae24e62e3c5"
+    },
+    {
+      "filename": "adapter_model.safetensors.b64.part09",
+      "size": 16923478,
+      "sha256": "ab384d5a3ea49e8f7e66a352c1835b775dd33d29d7260fab4c901560e1f9cd39"
+    }
+  ],
+  "adapter_config": {
+    "filename": "adapter_config.json",
+    "size": 10269,
+    "sha256": "ac5dbddebef3156c772deb5dbce286a6bac65ed251fb6a7afd25b91ebcc36cc3"
+  },
+  "adapter_type": "LORA",
+  "base_model_name_or_path": "togethercomputer/Qwen3.5-2B",
+  "tensor_count": 192,
+  "source_archive": "adaption_qwen3_5_2b_agent_coordination_promp_7bf1cab6.tgz",
+  "source_archive_sha256": "b7809277f751bc44ef93ae5f30964708d5d96ef7cda7ca5951b88f15c27a9038"
+}
