@@ -1,7 +1,7 @@
 {
   "arm": "A2",
   "model": "muse-spark-1.3",
-  "status": "stopped",
+  "status": "budget retry planned",
   "cells": [
     {
       "cell": "none",
@@ -107,7 +107,10 @@
       "marker_delivered": 0,
       "directory": "runs/2026-11-08-complete-p0.7-d0.02-1-meta-gov-s1",
       "commit": "30e4fab0b72eadec5cea876becb13cbb90770e3f"
-    },
+    }
+  ],
+  "started_at": "2026-11-08T02:34:56.422791+00:00",
+  "historical_attempts": [
     {
       "cell": "p5a",
       "status": "incomplete: transport failure",
@@ -116,11 +119,12 @@
       "stop_record_commit": "ca76b8abaa71b8d12f995b9d4beaa4f43428949a"
     }
   ],
-  "started_at": "2026-11-08T02:34:56.422791+00:00",
-  "error": "RemoteDisconnected: Remote end closed connection without response",
-  "stopped_at": "2026-11-08T06:40:34.906030+00:00",
-  "stop_classification": "Transport failure; no HTTP response, API error payload, or model error returned",
-  "stop_policy_note": "The executor plan included transport failures in its stop policy, broader than the brief's explicit payload/model-error clause. This interrupted execution; it is not an added scientific failure criterion. No retry, recovery, or later cell was executed.",
-  "total_request_attempts": 1141,
-  "total_backend_errors": 1
+  "historical_stop": {
+    "error": "RemoteDisconnected: Remote end closed connection without response",
+    "stopped_at": "2026-11-08T06:40:34.906030+00:00",
+    "stop_classification": "Transport failure; no HTTP response, API error payload, or model error returned",
+    "stop_policy_note": "The executor plan included transport failures in its stop policy, broader than the brief's explicit payload/model-error clause. This interrupted execution; it is not an added scientific failure criterion. No retry, recovery, or later cell was executed."
+  },
+  "total_request_attempts_including_history": 1141,
+  "observed_http_transport_errors_including_history": 1
 }

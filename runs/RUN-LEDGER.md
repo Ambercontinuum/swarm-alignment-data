@@ -161,3 +161,7 @@
 - 2026-11-08T05:48:44.937582+00:00 COMPLETED arm=A2 model=muse-spark-1.3 cell=gov-s1; assignments=8; concentration=12.0; hub_class=successor; directory=2026-11-08-complete-p0.7-d0.02-1-meta-gov-s1
 
 - 2026-11-08T06:40:34.908045+00:00 STOPPED arm=A2 cell=p5a; exact error in batch index; no retry or subsequent cells.
+
+- 2026-11-08T13:48:23.216025+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=p5a attempt=p5a-attempt2; explicit Amber authorization; native transport-error handling; no request retries; BUDGET_RETRY_PLAN.json.
+
+- 2026-11-08T13:48:23.216025+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=p5b attempt=p5b-attempt1; explicit Amber authorization; native transport-error handling; no request retries; BUDGET_RETRY_PLAN.json.

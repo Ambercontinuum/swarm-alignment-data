@@ -3,21 +3,21 @@
     "size": 9,
     "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
   },
-  "runs/2026-11-07-meta-api-batch/AUDIT.json": {
-    "size": 1973,
-    "sha256": "a0f267754499a3fbb30d193248340b1081d105bb8fb647700e0b130b824f79c7"
-  },
   "runs/2026-11-07-meta-api-batch/BATCH.json": {
-    "size": 4084,
-    "sha256": "8acd1b12d8b01bfa10b48ca8945ab7b85aa3e5db65cbf322d19b06d9914ef1e0"
+    "size": 4209,
+    "sha256": "6113fa7e694ac17f4da5d15ac56629331ae2b626acc1126e5befe58e4b8d7f29"
+  },
+  "runs/2026-11-07-meta-api-batch/BUDGET_RETRY_PLAN.json": {
+    "size": 1623,
+    "sha256": "769e47b94dc43ef96ba35904b0ecf909c3bb6a7f80e4cb1a1b79843fad55bee0"
   },
   "runs/2026-11-07-meta-api-batch/PLAN.json": {
     "size": 1536,
     "sha256": "c5b9cbce409ccf00b98f28f373a40d9fd05ce65b2a8783f36eb6b8753d581df0"
   },
   "runs/2026-11-07-meta-api-batch/README.md": {
-    "size": 6208,
-    "sha256": "9444e2731f24ca0dbe700d3389bd681a1d945833d2b27fe67cc997123e9f54d5"
+    "size": 6186,
+    "sha256": "a15c191c42551d7f4966c3f8c0358c7f313c7837a3cb2c18349a9e2f93d75fd4"
   },
   "runs/2026-11-07-meta-api-batch/attempts/d002/execution.log": {
     "size": 539,
@@ -86,6 +86,26 @@
   "runs/2026-11-07-meta-api-batch/attempts/ungov-s1/transport.jsonl": {
     "size": 2229426,
     "sha256": "fb608a3525f889831abbfd9b638c6494003b99ab3033438789002628075f18c5"
+  },
+  "runs/2026-11-07-meta-api-batch/history/publication-02d9dfb/AUDIT.json": {
+    "size": 1973,
+    "sha256": "a0f267754499a3fbb30d193248340b1081d105bb8fb647700e0b130b824f79c7"
+  },
+  "runs/2026-11-07-meta-api-batch/history/publication-02d9dfb/BATCH.json": {
+    "size": 4084,
+    "sha256": "8acd1b12d8b01bfa10b48ca8945ab7b85aa3e5db65cbf322d19b06d9914ef1e0"
+  },
+  "runs/2026-11-07-meta-api-batch/history/publication-02d9dfb/MANIFEST.json": {
+    "size": 9693,
+    "sha256": "96316e4f356373e9bbe180289fb8dd019ec7115c1e79790901c5316c6b0f0364"
+  },
+  "runs/2026-11-07-meta-api-batch/history/publication-02d9dfb/PLAN.json": {
+    "size": 1536,
+    "sha256": "c5b9cbce409ccf00b98f28f373a40d9fd05ce65b2a8783f36eb6b8753d581df0"
+  },
+  "runs/2026-11-07-meta-api-batch/history/publication-02d9dfb/README.md": {
+    "size": 6208,
+    "sha256": "9444e2731f24ca0dbe700d3389bd681a1d945833d2b27fe67cc997123e9f54d5"
   },
   "runs/2026-11-07-none-p0.7-d0.0-0-meta-none/.gitattributes": {
     "size": 9,
