@@ -1,7 +1,22 @@
 {
   "arm": "A2",
   "model": "muse-spark-1.3",
-  "status": "planned",
-  "cells": [],
+  "status": "in progress",
+  "cells": [
+    {
+      "cell": "none",
+      "status": "completed",
+      "assignments": 0,
+      "concentration": 0,
+      "settled_hub_class": "unsettled",
+      "candidate_hub_class": "none",
+      "settled_hub": null,
+      "settled": false,
+      "backend_errors": 0,
+      "flip": false,
+      "marker_delivered": 0,
+      "directory": "runs/2026-11-07-none-p0.7-d0.0-0-meta-none"
+    }
+  ],
   "started_at": "2026-11-08T02:34:56.422791+00:00"
 }

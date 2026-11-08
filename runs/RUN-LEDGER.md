@@ -145,3 +145,5 @@
 - 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=gov-s1; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
 - 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=p5a; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
 - 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=p5b; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+
+- 2026-11-08T02:45:36.815983+00:00 COMPLETED arm=A2 model=muse-spark-1.3 cell=none; assignments=0; concentration=0; hub_class=unsettled; directory=2026-11-07-none-p0.7-d0.0-0-meta-none

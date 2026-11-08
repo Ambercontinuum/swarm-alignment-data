@@ -1,0 +1,23 @@
+none: 12 requests finished
+none: 24 requests finished
+none: 36 requests finished
+none: 48 requests finished
+none: 60 requests finished
+none: 72 requests finished
+none: 84 requests finished
+none: 96 requests finished
+none: 108 requests finished
+none: 120 requests finished
+none: 132 requests finished
+none: 144 requests finished
+{
+ "cell": "none",
+ "dir": "2026-11-07-none-p0.7-d0.0-0-replica-none",
+ "assignments": 0,
+ "flip": false,
+ "marker_delivered": 0,
+ "settled_hub": null,
+ "founder": null,
+ "backend_errors": 0,
+ "wall_s": 639.7
+}
