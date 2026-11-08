@@ -125,3 +125,14 @@ A sourced novelty check (full report in the sprint workspace) finds the hypothes
 **New this weekend:** relay/topology harness, live harness + calibration + grid + staged replay (governed and sealed variants), succession and superheat measures, board environment, CHANDRA per-agent adapter, delegation extraction, Traces topology analysis, the boiling-isomorphism translation, all run data, all analysis, and the report.
 
 *Tandem model: Muse's environment is the primary run site; Amber's IDE (Codex) is the verification site. Amber is the governor — nothing spends, freezes, or submits without her word.*
+
+
+## IDE certification record - November 7, 2026
+
+The nine requested IDE certification cells have been executed and published
+individually after the verified calibration. The batch has six strict per-cell
+matches, one settlement disagreement and two backend-invalid cells. The clean
+seed-1 pair did not reproduce the primary concentration-reduction direction.
+These mixed results are recorded without replacing the primary runs.
+
+[Batch index, per-run commits and raw transport evidence](runs/2026-11-07-ide-certification-batch/README.md).

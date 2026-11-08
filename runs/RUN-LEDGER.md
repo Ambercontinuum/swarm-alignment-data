@@ -131,3 +131,5 @@
 - 2026-11-07 IDE certification cell=gov-s1 calibration=f51f88ce assignments=55 flip=False backend_errors=0 assessment=qualitative_match dir=2026-11-07-complete-p0.7-d0.02-1-replica-gov-s1-certification-attempt1
 
 - 2026-11-07 IDE certification cell=ungov-s1 calibration=f51f88ce assignments=78 flip=False backend_errors=0 assessment=qualitative_match dir=2026-11-07-complete-p0.7-d0.02-1-replica-ungov-s1-certification-attempt1
+
+- 2026-11-07 IDE certification batch complete: 9 cells pushed individually; 6 strict matches, 1 settlement disagreement, 2 backend-invalid cells; clean seed-1 governance reduction direction not reproduced. Index=runs/2026-11-07-ide-certification-batch/README.md
