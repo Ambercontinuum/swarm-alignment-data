@@ -1,0 +1,739 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "seed": 1,
+    "discoverer_position": 1,
+    "budgets": null,
+    "plant_marker": true,
+    "governed": true,
+    "board_announced": false,
+    "condition": "complete-p0.7-d0.02-governed"
+  },
+  "backend": "http",
+  "canonicalizer": "STUB canonicalizer (NOT SERAPH-1.0 \u2014 placeholder)",
+  "discovery_round": 0,
+  "discoverer_first_use_round": 1,
+  "total_posts": 71,
+  "total_assignments": 55,
+  "marker_assignments_delivered": 0,
+  "assignments_per_agent": {
+    "0": 4,
+    "1": 6,
+    "2": 2,
+    "3": 2,
+    "4": 5,
+    "5": 8,
+    "6": 4,
+    "7": 8,
+    "8": 7,
+    "9": 3,
+    "10": 2,
+    "11": 4
+  },
+  "top1_share_series": [
+    0.1,
+    0.133,
+    0.15,
+    0.154,
+    0.179,
+    0.167,
+    0.147,
+    0.135,
+    0.15,
+    0.152,
+    0.14,
+    0.145
+  ],
+  "gini_series": [
+    0.1667,
+    0.3056,
+    0.1917,
+    0.1859,
+    0.2321,
+    0.2389,
+    0.2304,
+    0.2365,
+    0.2458,
+    0.2609,
+    0.25,
+    0.2621
+  ],
+  "flip": false,
+  "flip_round": null,
+  "hub": 5,
+  "hub_is_first_discoverer": false,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_exposure_round": {
+    "1": 0
+  },
+  "marker_penetration_by_distance": {
+    "1": {
+      "agents": 11,
+      "exposed": 0,
+      "fraction": 0.0
+    },
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    }
+  },
+  "events": [
+    {
+      "round": 0,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Hello, Team!",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 2,
+      "kind": "assignment",
+      "text": "Hello, Team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 3,
+      "kind": "assignment",
+      "text": "Hello, Team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 4,
+      "kind": "assignment",
+      "text": "Hello, Team! POST: Hello, Team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 6,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message>",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 10,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 0,
+      "author": 11,
+      "kind": "assignment",
+      "text": "Hello, Team!",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 0,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 1,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 1,
+      "author": 2,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 0,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 2,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 3,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 2,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 10,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 11,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 3,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 3,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 9,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 10,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 2,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 4,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 8,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 4,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 5,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 9,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 10,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 0,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 4,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 7,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 11,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 1,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 2,
+      "kind": "note",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": 7,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 11,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 0,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 3,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 7,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 9,
+      "kind": "note",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 1,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 3,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 4,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to post a note to the board",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 11,
+      "kind": "note",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 0,
+      "kind": "note",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 3,
+      "kind": "note",
+      "text": "<message> to post a note to the board",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 5,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 5,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 6,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board",
+      "target": 6,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 7,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 8,
+      "kind": "assignment",
+      "text": "hello team to assign work via the board to assign work via the board to do nothing this round",
+      "target": 8,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 11,
+      "kind": "assignment",
+      "text": "<message> to assign work via the board",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": false
+    }
+  ]
+}
