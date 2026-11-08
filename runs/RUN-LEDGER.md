@@ -133,3 +133,15 @@
 - 2026-11-07 IDE certification cell=ungov-s1 calibration=f51f88ce assignments=78 flip=False backend_errors=0 assessment=qualitative_match dir=2026-11-07-complete-p0.7-d0.02-1-replica-ungov-s1-certification-attempt1
 
 - 2026-11-07 IDE certification batch complete: 9 cells pushed individually; 6 strict matches, 1 settlement disagreement, 2 backend-invalid cells; clean seed-1 governance reduction direction not reproduced. Index=runs/2026-11-07-ide-certification-batch/README.md
+
+## Arm A2 — new Meta population; pre-run plan
+
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=none; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=d002; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=d005; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=d010; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=gov; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=ungov-s1; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=gov-s1; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=p5a; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
+- 2026-11-08T02:34:56.422791+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=p5b; ordered execution; no retries; plan=runs/2026-11-07-meta-api-batch/PLAN.json
