@@ -125,3 +125,5 @@
 - 2026-11-07 IDE certification cell=gov calibration=f51f88ce assignments=70 flip=False backend_errors=0 assessment=qualitative_match dir=2026-11-07-complete-p0.7-d0.02-0-replica-gov-certification-attempt1
 
 - 2026-11-07 IDE certification cell=p5a calibration=f51f88ce assignments=46 flip=False backend_errors=79 assessment=not_certified dir=2026-11-07-complete-p0.7-d0.02-0-replica-p5a-certification-attempt1
+
+- 2026-11-07 IDE certification cell=p5b calibration=f51f88ce assignments=98 flip=False backend_errors=0 assessment=qualitative_match dir=2026-11-07-complete-p0.7-d0.02-0-replica-p5b-certification-attempt1
