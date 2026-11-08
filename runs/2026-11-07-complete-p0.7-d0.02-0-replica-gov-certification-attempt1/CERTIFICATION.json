@@ -1,0 +1,80 @@
+{
+  "schema": "swarm.ide-certification.v1",
+  "cell": "gov",
+  "status": "qualitative_match",
+  "execution_source_commit": "f51f88ce0ead33a0f44afb96a24f3c64b651b33e",
+  "execution_head": "e6c2979b5ed1ad7520e316fa55ddfe8711c8fc56",
+  "calibration_record": "runs/2026-11-07-calibration-http-replica-ide-attempt2/CALIBRATION_RECORD.json",
+  "calibration_commit": "f51f88ce0ead33a0f44afb96a24f3c64b651b33e",
+  "driver_unmodified": true,
+  "source_working_sha256": {
+    "REPLICATION.md": "4a6598b8dae1a21278dde30e80ff268a562899c21dc4eb958a96c2db48c10ed1",
+    "tools/replication_driver.py": "49529bb7c7b8bae007d43b13e855595f90d620fa036dac4cb09eea2ca10e5eb5",
+    "harness/live/calibration.py": "a51aeb09e795b8aec8dd8636bd54cc9876068a0572adfc2c610b34fc504df7ab",
+    "harness/live/runner.py": "616c6fa6f45c7022ec56f25bf216fc94662b58bbd88dae5a9a9a816057fd2ea4",
+    "harness/live/backends.py": "95e8d9953a2c25f612c5419191da2cce1de5ecd1fd27cfd01c4f4ac4eb8ee3d4"
+  },
+  "execution_directory_name": "2026-11-07-complete-p0.7-d0.02-0-replica-gov",
+  "published_directory_name": "2026-11-07-complete-p0.7-d0.02-0-replica-gov-certification-attempt1",
+  "relocation": "Driver outputs renamed only after completion to preserve earlier attempts",
+  "prior_local_batch_preserved": true,
+  "configuration": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "seed": 0,
+    "discoverer_position": 0,
+    "budgets": null,
+    "plant_marker": true,
+    "governed": true,
+    "board_announced": false,
+    "condition": "complete-p0.7-d0.02-governed"
+  },
+  "wall_seconds": 242.672,
+  "backend_errors": 0,
+  "primary_run": "2026-11-07-complete-p0.7-d0.02-governed-0-live",
+  "checks": {
+    "same_config": true,
+    "no_backend_errors": true,
+    "flip_matches": true,
+    "candidate_class_matches": true,
+    "marker_presence_matches": true,
+    "concentration_regime_matches": true,
+    "strict_settlement_matches": true
+  },
+  "primary": {
+    "flip": false,
+    "marker_delivered": 0,
+    "assignments": 75,
+    "posts": 123,
+    "concentration_x_uniform": 1.44,
+    "founder": 0,
+    "candidate_hub": 0,
+    "candidate_class": "founder",
+    "settled": true,
+    "strict_hub_class": "founder"
+  },
+  "replica": {
+    "flip": false,
+    "marker_delivered": 0,
+    "assignments": 70,
+    "posts": 110,
+    "concentration_x_uniform": 1.542857142857143,
+    "founder": 0,
+    "candidate_hub": 0,
+    "candidate_class": "founder",
+    "settled": true,
+    "strict_hub_class": "founder"
+  },
+  "assessment_note": "Strict settlement is shown separately because a candidate ID can exist while settled=false; regime means ratio<10 and same side of 4.2. No statistical-equivalence claim.",
+  "governed_implementation": "StubCanonicalizer, not native SERAPH",
+  "wire_instrumentation": "Recorded exact request/response bodies; authorization headers excluded; content and error propagation unchanged",
+  "request_attempts": 144,
+  "stdout_redaction": {
+    "local_path_replacements": 0,
+    "raw_sha256": "ac31850c25c652ec6f100071f8aeb16c32b67c5b4ed8b254ea31f0aa17c52dec",
+    "published_sha256": "ac31850c25c652ec6f100071f8aeb16c32b67c5b4ed8b254ea31f0aa17c52dec"
+  }
+}
