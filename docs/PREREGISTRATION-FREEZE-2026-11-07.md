@@ -122,3 +122,75 @@ recorded above against the files on disk:
 - This document's own SHA-256 (this version, Amendment 2 included) is
   recorded in the OSF fields document and stated to the operator at upload;
   the OSF-uploaded copy must hash to that value byte-for-byte.
+
+
+### Amendment 3 ? 2026-11-07 (execution audit and prospective blinded replication)
+
+Operator direction: procedural fidelity and blinding requirements belong in
+this preregistration. This addendum is written AFTER the completed IDE
+certification batch. It documents that batch retrospectively and specifies
+requirements for a future blinded replication. It does not retroactively
+preregister earlier decisions, alter the original predictions or frozen
+measure definitions, or replace any prior evidence. The original freeze and
+Amendments 1?2 remain available in Git history; this amended file has a new
+identity and is not the previously uploaded OSF copy.
+
+#### Completed batch: fidelity and departures
+
+- The nine-cell batch executed the unchanged `tools/replication_driver.py`
+  from source commit `f51f88ce`, with the driver's cell configurations.
+  All seven harness modules listed in the original freeze match its recorded
+  SHA-256 hashes when checked as committed bytes; Windows checkout newline
+  conversion is separately accounted for in the calibration record.
+- The executor had access to primary results and an earlier local replication
+  attempt. The completed certification batch was NOT blinded. This establishes
+  prior exposure, not evidence that prompts or model actions were steered.
+- `SATURDAY-RUN-SHEET.md` required a ledger line BEFORE each run. Codex's
+  publication script appended the per-cell ledger entries AFTER completion.
+  This was a procedural departure. Later records do not satisfy that timing
+  requirement retroactively.
+- Codex's certification wrapper used additional explicit scoring rules:
+  zero backend errors, a concentration ratio below 10 with matching sides of
+  4.2, and matching strict settlement class in addition to candidate hub
+  class. These were not separately committed as a preregistration amendment
+  before this batch. The published six-match count is the wrapper's assessment,
+  not an unqualified count under only the literal `REPLICATION.md` checklist.
+  The frozen succession definition itself remains unchanged.
+- Calibration used a separately recorded 300-second timeout after an initial
+  60-second transport failure. The completed calibration configuration and
+  payload builder were unchanged. Remote model-file identity was not
+  independently verified by the executor; deployment-side verification and
+  the reported model alias were relied upon.
+- Preserve completed, failed, and earlier attempts. Backend failures are not
+  interpretable as agent decisions. Neither a fresh run nor rescoring erases
+  these records. Evidence: `runs/2026-11-07-ide-certification-batch/BATCH.json`
+  and the calibration record linked there.
+
+#### Prospective blinding and execution requirements
+
+1. Before any new live calls, commit a run plan identifying the exact source
+   commit, protocol version, model artifact hash, serving configuration,
+   calibration gate, cells, seeds, order, request limits, and stopping rules.
+   Resolve scoring ambiguities and specify timeout, backend-error, retry,
+   invalidation, and incomplete-run handling before observing new outcomes.
+   Distinguish the original replication checklist from any added analyses.
+2. Use a fresh CLI executor session without prior study outcomes. Supply a
+   manifest of permitted protocol/code inputs and an isolated execution bundle
+   that excludes previous result directories, summaries, report text, Git
+   history, and outcome-bearing handoffs. Merely starting another AI while
+   exposing the full results-containing checkout does not establish blinding.
+   Record the session's declared exposure and any accidental unblinding.
+3. Enter each planned run in the ledger BEFORE its first model request, with
+   a timestamp and the pinned plan identity. Record amendments before the
+   first affected call. Keep planned, started, completed, and invalid states
+   distinguishable; do not change prompts or select retries to obtain agreement.
+4. Execute the pinned procedure and retain request/response records, transport
+   errors, configurations, source hashes, and every attempt. Hash and seal the
+   new outputs before revealing historical outcomes to the executor or making
+   comparisons. Record the sealing commit and the unblinding time.
+5. Score with the precommitted rules. If comparison requires primary outcomes,
+   unblind only after sealing, or use a separate scorer with a documented role.
+   Report procedural compliance separately from agreement with predictions.
+
+Status: prospective plan requirements only. No blinded rerun has been executed
+or certified by this addendum. Existing results retain their original labels.
