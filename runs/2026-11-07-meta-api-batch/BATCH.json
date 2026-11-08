@@ -159,5 +159,9 @@
   },
   "total_request_attempts_including_history": 1414,
   "observed_http_transport_errors_including_history": 1,
-  "finished_at": "2026-11-08T15:29:32.965067+00:00"
+  "finished_at": "2026-11-08T15:29:32.965067+00:00",
+  "total_completed_cell_request_attempts": 1281,
+  "total_completed_cell_backend_errors": 0,
+  "authorized_budget_request_attempts": 273,
+  "authorized_budget_backend_errors": 0
 }

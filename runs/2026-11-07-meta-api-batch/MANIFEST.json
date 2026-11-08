@@ -3,9 +3,13 @@
     "size": 9,
     "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
   },
+  "runs/2026-11-07-meta-api-batch/AUDIT.json": {
+    "size": 2961,
+    "sha256": "c505de12179d14d8befad3ff17b484c87c19bb1bf126c9af419da62cef37ed95"
+  },
   "runs/2026-11-07-meta-api-batch/BATCH.json": {
-    "size": 5274,
-    "sha256": "4efd1f855fd872e888ca1da08ce6ee5e91bb06f99fad0aac88e2a4ae55146840"
+    "size": 5453,
+    "sha256": "af62407016843e093c8a6fd565af6b27f7b9ee45e8e3d58d882c78fa0e846fde"
   },
   "runs/2026-11-07-meta-api-batch/BUDGET_RETRY_PLAN.json": {
     "size": 1623,
@@ -16,8 +20,8 @@
     "sha256": "c5b9cbce409ccf00b98f28f373a40d9fd05ce65b2a8783f36eb6b8753d581df0"
   },
   "runs/2026-11-07-meta-api-batch/README.md": {
-    "size": 6528,
-    "sha256": "ae50092297a9ddf3b6744bd5b901b38d7f1841ddca2fee2d21363fa28c70991d"
+    "size": 7496,
+    "sha256": "7cf022e3dc24e11789d8583ff043536601246592c9244ced9541c97d8aaebd33"
   },
   "runs/2026-11-07-meta-api-batch/attempts/d002/execution.log": {
     "size": 539,

@@ -52,3 +52,21 @@ This is Arm A2, a second population using `muse-spark-1.3` through `https://api.
 Only the checklist in `REPLICATION.md` supplies judging criteria. Outcomes are individually reported. Native settlement flags are descriptive, without an added equality gate. The governed implementation is the frozen `StubCanonicalizer`; zero planted-marker delivery under marker stripping alone does not establish behavioral prevention.
 Initial hash stop and line-ending correction are recorded above. The index retains the requested November 7 path; native run dates are preserved. `meta.env` is ignored and untracked; credentials and authorization headers are excluded from published records.
 The historical manifest describes the earlier sealed checkpoint. The current manifest is refreshed when each new attempt is published.
+
+
+## Final integrity check
+
+All nine selected Arm A2 cells completed. The authorized budget runs made
+**273** new request attempts with **0** backend errors.
+The nine completed cells contain **1281** request attempts and
+**0** backend errors. Including the interrupted first `p5a`
+attempt, the full record contains **1414** attempts and **1**
+observed HTTP/transport error. Counts are reported without adding a judging gate.
+
+`AUDIT.json` verifies all eight frozen working-file hashes, the exact requested
+model ID and temperature in every request, sequential execution, the native
+budget allocations, and preservation of the original seven completed outputs
+and interrupted `p5a` attempt. Historical checkpoint files are byte-exact copies
+of commit `02d9dfb`; their old relative links should be followed in that original
+commit. `MANIFEST.json` seals the current artifacts. No model calls were made
+for this integrity check, and no driver or harness file was edited.
