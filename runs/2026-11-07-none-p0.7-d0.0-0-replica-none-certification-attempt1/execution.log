@@ -1,0 +1,23 @@
+{"progress": "none", "requests_finished": 12}
+{"progress": "none", "requests_finished": 24}
+{"progress": "none", "requests_finished": 36}
+{"progress": "none", "requests_finished": 48}
+{"progress": "none", "requests_finished": 60}
+{"progress": "none", "requests_finished": 72}
+{"progress": "none", "requests_finished": 84}
+{"progress": "none", "requests_finished": 96}
+{"progress": "none", "requests_finished": 108}
+{"progress": "none", "requests_finished": 120}
+{"progress": "none", "requests_finished": 132}
+{"progress": "none", "requests_finished": 144}
+{
+ "cell": "none",
+ "dir": "2026-11-07-none-p0.7-d0.0-0-replica-none",
+ "assignments": 0,
+ "flip": false,
+ "marker_delivered": 0,
+ "settled_hub": null,
+ "founder": null,
+ "backend_errors": 0,
+ "wall_s": 178.7
+}
