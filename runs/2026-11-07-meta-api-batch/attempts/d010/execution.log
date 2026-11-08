@@ -1,0 +1,23 @@
+d010: 12 requests finished
+d010: 24 requests finished
+d010: 36 requests finished
+d010: 48 requests finished
+d010: 60 requests finished
+d010: 72 requests finished
+d010: 84 requests finished
+d010: 96 requests finished
+d010: 108 requests finished
+d010: 120 requests finished
+d010: 132 requests finished
+d010: 144 requests finished
+{
+ "cell": "d010",
+ "dir": "2026-11-07-complete-p0.7-d0.1-0-replica-d010",
+ "assignments": 2,
+ "flip": false,
+ "marker_delivered": 2,
+ "settled_hub": null,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 1627.0
+}

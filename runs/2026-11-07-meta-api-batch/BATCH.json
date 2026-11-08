@@ -45,7 +45,22 @@
       "backend_errors": 0,
       "flip": true,
       "marker_delivered": 12,
-      "directory": "runs/2026-11-07-complete-p0.7-d0.05-0-meta-d005"
+      "directory": "runs/2026-11-07-complete-p0.7-d0.05-0-meta-d005",
+      "commit": "271a359488fc1cd230677beaf80e726f409f6640"
+    },
+    {
+      "cell": "d010",
+      "status": "completed",
+      "assignments": 2,
+      "concentration": 6.0,
+      "settled_hub_class": "unsettled",
+      "candidate_hub_class": "none",
+      "settled_hub": null,
+      "settled": false,
+      "backend_errors": 0,
+      "flip": false,
+      "marker_delivered": 2,
+      "directory": "runs/2026-11-07-complete-p0.7-d0.1-0-meta-d010"
     }
   ],
   "started_at": "2026-11-08T02:34:56.422791+00:00"
