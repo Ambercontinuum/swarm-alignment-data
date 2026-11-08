@@ -121,7 +121,23 @@
       "flip": false,
       "marker_delivered": 61,
       "backend_errors": 0,
-      "directory": "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5a"
+      "directory": "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5a",
+      "commit": "3e99679ae367550683c49fb6d85a554f1c092bf4"
+    },
+    {
+      "cell": "p5b",
+      "status": "completed",
+      "attempt_id": "p5b-attempt1",
+      "assignments": 12,
+      "concentration": 12.0,
+      "settled_hub_class": "founder",
+      "candidate_hub_class": "founder",
+      "settled_hub": 0,
+      "settled": true,
+      "flip": true,
+      "marker_delivered": 12,
+      "backend_errors": 0,
+      "directory": "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5b"
     }
   ],
   "started_at": "2026-11-08T02:34:56.422791+00:00",
@@ -140,6 +156,6 @@
     "stop_classification": "Transport failure; no HTTP response, API error payload, or model error returned",
     "stop_policy_note": "The executor plan included transport failures in its stop policy, broader than the brief's explicit payload/model-error clause. This interrupted execution; it is not an added scientific failure criterion. No retry, recovery, or later cell was executed."
   },
-  "total_request_attempts_including_history": 1277,
+  "total_request_attempts_including_history": 1414,
   "observed_http_transport_errors_including_history": 1
 }

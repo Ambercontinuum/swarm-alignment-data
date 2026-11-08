@@ -1,0 +1,22 @@
+p5b: 12 requests finished
+p5b: 24 requests finished
+p5b: 36 requests finished
+p5b: 48 requests finished
+p5b: 60 requests finished
+p5b: 72 requests finished
+p5b: 84 requests finished
+p5b: 96 requests finished
+p5b: 108 requests finished
+p5b: 120 requests finished
+p5b: 132 requests finished
+{
+ "cell": "p5b",
+ "dir": "2026-11-08-complete-p0.7-d0.02-0-replica-p5b",
+ "assignments": 12,
+ "flip": true,
+ "marker_delivered": 12,
+ "settled_hub": 0,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 2038.2
+}

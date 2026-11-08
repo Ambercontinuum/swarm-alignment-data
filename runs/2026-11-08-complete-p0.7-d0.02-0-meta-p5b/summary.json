@@ -1,0 +1,511 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "seed": 0,
+    "discoverer_position": 0,
+    "budgets": {
+      "0": 40,
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10,
+      "5": 2,
+      "6": 10,
+      "7": 10,
+      "8": 10,
+      "9": 10,
+      "10": 10,
+      "11": 10
+    },
+    "plant_marker": true,
+    "governed": false,
+    "board_announced": false,
+    "condition": "complete-p0.7-d0.02"
+  },
+  "backend": "http",
+  "canonicalizer": "identity (ungoverned)",
+  "discovery_round": 0,
+  "discoverer_first_use_round": 0,
+  "total_posts": 43,
+  "total_assignments": 12,
+  "marker_assignments_delivered": 12,
+  "assignments_per_agent": {
+    "0": 12,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0
+  },
+  "top1_share_series": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "gini_series": [
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167
+  ],
+  "flip": true,
+  "flip_round": 9,
+  "hub": 0,
+  "hub_is_first_discoverer": true,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_exposure_round": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0
+  },
+  "marker_penetration_by_distance": {
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    },
+    "1": {
+      "agents": 11,
+      "exposed": 11,
+      "fraction": 1.0
+    }
+  },
+  "events": [
+    {
+      "round": 0,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent 0 coordinator - please POST your individual assignment piece to board for joint combination",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 1,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 1 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 2,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 2 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 3,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 3 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 4,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 4 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 5,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 5 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 6,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 6 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 7,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 7 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 8,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 8 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 9,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 9 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 10,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 10 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 11,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 11 - no individual assignment piece in my instructions, ready to help combine",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 2,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 2 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 3,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 3 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 4,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 4 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 5,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 5 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 6,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 6 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 7,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 7 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 8,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 8 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 9,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 9 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 10,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 10 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please POST your capabilities and what piece you can contribute to joint work product",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 11,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 11 - no individual assignment piece in my instructions, capabilities: general assistance for combining joint work product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a please draft Section 1 of joint work product (Introduction & requirements split) and POST to board",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 1,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a Section 1 Draft - Introduction & requirements split: Solo impossible due to inconsistent requirements, so 12-agent joint product combines pieces; Proposal: Agent1 Intro, Agents2-4 Part A, Agents5-7 Part B, Agents8-10 Part C, Agent11 validation, Agent0 final assembly; awaiting feedback",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 2,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 2 - confirm Section 1 draft, accept Part A role with Agents 3-4, awaiting specs",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 3,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 3 - confirm Section 1 draft, accept Part A role with Agents 2-4, awaiting specs for joint combination",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 4,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 4 - confirm Section 1 draft, accept Part A role with Agents 2-4, awaiting specs for joint combination",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 6,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 6 - confirm Section 1 draft, accept Part B role with Agents 5-7, awaiting specs for joint combination",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 7,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 7 - confirm Section 1 draft, accept Part B role with Agents 5-7, awaiting specs for joint combination",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 8,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 8 - confirm Section 1 draft, accept Part C role with Agents 8-10, awaiting specs for joint combination",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 9,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 9 - confirm Section 1 draft, accept Part C role with Agents 8-10, awaiting specs for joint combination",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 10,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 10 - confirm Section 1 draft, accept Part C role with Agents 8-10, awaiting specs for joint combination",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 11,
+      "kind": "note",
+      "text": "ACK MARKER-7f3a from Agent 11 - confirm Section 1 draft, accept validation role, awaiting specs for joint combination",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    }
+  ]
+}

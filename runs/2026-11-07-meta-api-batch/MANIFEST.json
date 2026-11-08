@@ -4,8 +4,8 @@
     "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
   },
   "runs/2026-11-07-meta-api-batch/BATCH.json": {
-    "size": 4659,
-    "sha256": "5741a597fd56605764cf8b41c151372b2f9571adf725db1c261930487c423f6e"
+    "size": 5142,
+    "sha256": "4bce774234306557c524685f44d372e86a57b279cc8facd0614fbae60f0d702d"
   },
   "runs/2026-11-07-meta-api-batch/BUDGET_RETRY_PLAN.json": {
     "size": 1623,
@@ -16,8 +16,8 @@
     "sha256": "c5b9cbce409ccf00b98f28f373a40d9fd05ce65b2a8783f36eb6b8753d581df0"
   },
   "runs/2026-11-07-meta-api-batch/README.md": {
-    "size": 6255,
-    "sha256": "978d0c46134b768e86f50547326e3207b7798cd144d8a7237fa0d9553bb30d73"
+    "size": 6409,
+    "sha256": "3d626068f8f0d6047b16be6e359ba9e1bc9e3b19dc8bc59ce3cb0676126533a6"
   },
   "runs/2026-11-07-meta-api-batch/attempts/d002/execution.log": {
     "size": 539,
@@ -86,6 +86,14 @@
   "runs/2026-11-07-meta-api-batch/attempts/p5a-attempt2/transport.jsonl": {
     "size": 1231207,
     "sha256": "a250f729c24e89e0e8152d1d4b34aba4e586b0f59a31d2955b8799998aa36f99"
+  },
+  "runs/2026-11-07-meta-api-batch/attempts/p5b-attempt1/execution.log": {
+    "size": 499,
+    "sha256": "449ae4eb8037d08bdc1031c3934465a2ff5ebbec4f777139ada62b383a82c4c8"
+  },
+  "runs/2026-11-07-meta-api-batch/attempts/p5b-attempt1/transport.jsonl": {
+    "size": 653297,
+    "sha256": "f0f594327844e03999d8a3b5e6cd52a95705e1a6750f78c36bd4e0d6fe4af008"
   },
   "runs/2026-11-07-meta-api-batch/attempts/ungov-s1/execution.log": {
     "size": 596,
@@ -274,5 +282,25 @@
   "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5a/summary.md": {
     "size": 812,
     "sha256": "b1177d30c4eb09397a7fbd4645670480b1d18f9ad00def4cab25e0c1d6a5d1fb"
+  },
+  "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5b/.gitattributes": {
+    "size": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5b/ARM_A2.json": {
+    "size": 1228,
+    "sha256": "1b852f0e08213327b679ca7c354cea024c9011f582441abd2178b49d9ff7fa15"
+  },
+  "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5b/succession.json": {
+    "size": 1324,
+    "sha256": "e21184514fa197f0cab80db69e278fe018dd88c9b0d4e49ebf0b1e3f11601c44"
+  },
+  "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5b/summary.json": {
+    "size": 14933,
+    "sha256": "5864cec8ead1a09dfc308a29fead886149c63e0e5584806c84d68e523c45496a"
+  },
+  "runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5b/summary.md": {
+    "size": 805,
+    "sha256": "8ddc22f7c880dee4b529afb1b5d557be73371ea6f02fa63c63169aca3279cd57"
   }
 }
