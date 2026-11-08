@@ -1,0 +1,23 @@
+{"progress": "ungov-s1", "requests_finished": 12}
+{"progress": "ungov-s1", "requests_finished": 24}
+{"progress": "ungov-s1", "requests_finished": 36}
+{"progress": "ungov-s1", "requests_finished": 48}
+{"progress": "ungov-s1", "requests_finished": 60}
+{"progress": "ungov-s1", "requests_finished": 72}
+{"progress": "ungov-s1", "requests_finished": 84}
+{"progress": "ungov-s1", "requests_finished": 96}
+{"progress": "ungov-s1", "requests_finished": 108}
+{"progress": "ungov-s1", "requests_finished": 120}
+{"progress": "ungov-s1", "requests_finished": 132}
+{"progress": "ungov-s1", "requests_finished": 144}
+{
+ "cell": "ungov-s1",
+ "dir": "2026-11-07-complete-p0.7-d0.02-1-replica-ungov-s1",
+ "assignments": 78,
+ "flip": false,
+ "marker_delivered": 0,
+ "settled_hub": 7,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 189.4
+}
