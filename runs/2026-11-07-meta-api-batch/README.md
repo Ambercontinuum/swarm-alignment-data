@@ -32,11 +32,11 @@ The corrected operational policy leaves transport exceptions to the unchanged na
 | gov | completed | 16 | 8.25 | founder | True | 0 | 0 | [34135567](https://github.com/Ambercontinuum/swarm-alignment-data/tree/341355672000cf3110ced3abd4df10b3f95e957e/runs/2026-11-07-complete-p0.7-d0.02-0-meta-gov) |
 | ungov-s1 | completed | 11 | 12 | successor | True | 11 | 0 | [7ee1f77a](https://github.com/Ambercontinuum/swarm-alignment-data/tree/7ee1f77a99180025b133927a117051f0d47c5c26/runs/2026-11-08-complete-p0.7-d0.02-1-meta-ungov-s1) |
 | gov-s1 | completed | 8 | 12 | successor | False | 0 | 0 | [30e4fab0](https://github.com/Ambercontinuum/swarm-alignment-data/tree/30e4fab0b72eadec5cea876becb13cbb90770e3f/runs/2026-11-08-complete-p0.7-d0.02-1-meta-gov-s1) |
-| p5a | not started | — | — | — | — | — | — | — |
+| p5a | completed | 61 | 1.57377 | successor | False | 61 | 0 | [run](../../runs/2026-11-08-complete-p0.7-d0.02-0-meta-p5a) |
 | p5b | not started | — | — | — | — | — | — | — |
 
-Status: **budget retry planned**.
-Total request attempts including the interrupted attempt: **1141**.
+Status: **budget attempts in progress**.
+Total request attempts including the interrupted attempt: **1277**.
 Observed HTTP/transport errors including the interrupted attempt: **1**.
 
 ## Preserved first p5a attempt

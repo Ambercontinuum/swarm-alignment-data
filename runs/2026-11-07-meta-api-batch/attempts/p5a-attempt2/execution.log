@@ -1,0 +1,22 @@
+p5a: 12 requests finished
+p5a: 24 requests finished
+p5a: 36 requests finished
+p5a: 48 requests finished
+p5a: 60 requests finished
+p5a: 72 requests finished
+p5a: 84 requests finished
+p5a: 96 requests finished
+p5a: 108 requests finished
+p5a: 120 requests finished
+p5a: 132 requests finished
+{
+ "cell": "p5a",
+ "dir": "2026-11-08-complete-p0.7-d0.02-0-replica-p5a",
+ "assignments": 61,
+ "flip": false,
+ "marker_delivered": 61,
+ "settled_hub": 11,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 4020.8
+}

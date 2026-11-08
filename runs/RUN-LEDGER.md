@@ -165,3 +165,5 @@
 - 2026-11-08T13:48:23.216025+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=p5a attempt=p5a-attempt2; explicit Amber authorization; native transport-error handling; no request retries; BUDGET_RETRY_PLAN.json.
 
 - 2026-11-08T13:48:23.216025+00:00 PLANNED arm=A2 model=muse-spark-1.3 cell=p5b attempt=p5b-attempt1; explicit Amber authorization; native transport-error handling; no request retries; BUDGET_RETRY_PLAN.json.
+
+- 2026-11-08T14:55:27.873991+00:00 COMPLETED arm=A2 cell=p5a attempt=p5a-attempt2; assignments=61; backend_errors=0; folder=2026-11-08-complete-p0.7-d0.02-0-meta-p5a.
