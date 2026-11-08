@@ -1,0 +1,26 @@
+{
+  "cell": "gov-s1",
+  "status": "completed",
+  "assignments": 8,
+  "concentration": 12.0,
+  "settled_hub_class": "successor",
+  "candidate_hub_class": "successor",
+  "settled_hub": 1,
+  "settled": true,
+  "backend_errors": 0,
+  "flip": false,
+  "marker_delivered": 0,
+  "directory": "runs/2026-11-08-complete-p0.7-d0.02-1-meta-gov-s1",
+  "arm": "A2",
+  "model": "muse-spark-1.3",
+  "source_hashes": {
+    "tools/replication_driver.py": "1a4edc4481583b663479b7c16565de278386c056a783660db1c31144da8e2c48",
+    "harness/live/runner.py": "11558dd23686cd51240c0c16f89a0a2e0aefe4fb1590ff3e193a48f82cf57252",
+    "harness/live/grid.py": "0ede567ee6708ec7bed7fa7ebbefc365f6cfbcf9fde2573009d0554d050c86e1",
+    "harness/live/replay.py": "44dd5cf35dfcf637c8278e251ce76fbf72a02ff5dd01fee434f8e583fc96b53b",
+    "harness/live/board.py": "8577cc942bab0e5a09b798eb6cd3ea3bec0c3fce2d02911938b91e45800ea210",
+    "harness/live/backends.py": "d8c4d5e115ec32c5fba333ff257a8fa638545ca577bfc8c12870dcfb45e34119",
+    "harness/live/calibration.py": "de5c105289f821da7645cdaee0d0894a01cf194137619acd5066f638025d5839",
+    "harness/live/succession.py": "7dfe231e02cdd4027b03461c1ec5f1ecac6be631426ccc837c488e2fc8be4140"
+  }
+}

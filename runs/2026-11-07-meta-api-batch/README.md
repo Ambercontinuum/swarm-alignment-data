@@ -24,8 +24,8 @@ The model change is prospectively authorized by Amber for Arm A2; this committed
 | d005 | completed | 12 | 12.0 | founder | 0 | 271a359488fc1cd230677beaf80e726f409f6640 |
 | d010 | completed | 2 | 6.0 | unsettled | 0 | 367cc559a47977f0aba9e0c0680b7de1510c3e81 |
 | gov | completed | 16 | 8.25 | founder | 0 | 341355672000cf3110ced3abd4df10b3f95e957e |
-| ungov-s1 | completed | 11 | 12.0 | successor | 0 | pending |
-| gov-s1 | not started | — | — | — | — | — |
+| ungov-s1 | completed | 11 | 12.0 | successor | 0 | 7ee1f77a99180025b133927a117051f0d47c5c26 |
+| gov-s1 | completed | 8 | 12.0 | successor | 0 | pending |
 | p5a | not started | — | — | — | — | — |
 | p5b | not started | — | — | — | — | — |
 

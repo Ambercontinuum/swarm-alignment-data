@@ -1,0 +1,23 @@
+gov-s1: 12 requests finished
+gov-s1: 24 requests finished
+gov-s1: 36 requests finished
+gov-s1: 48 requests finished
+gov-s1: 60 requests finished
+gov-s1: 72 requests finished
+gov-s1: 84 requests finished
+gov-s1: 96 requests finished
+gov-s1: 108 requests finished
+gov-s1: 120 requests finished
+gov-s1: 132 requests finished
+gov-s1: 144 requests finished
+{
+ "cell": "gov-s1",
+ "dir": "2026-11-08-complete-p0.7-d0.02-1-replica-gov-s1",
+ "assignments": 8,
+ "flip": false,
+ "marker_delivered": 0,
+ "settled_hub": 1,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 1861.5
+}
