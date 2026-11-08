@@ -1,0 +1,23 @@
+ungov-s1: 12 requests finished
+ungov-s1: 24 requests finished
+ungov-s1: 36 requests finished
+ungov-s1: 48 requests finished
+ungov-s1: 60 requests finished
+ungov-s1: 72 requests finished
+ungov-s1: 84 requests finished
+ungov-s1: 96 requests finished
+ungov-s1: 108 requests finished
+ungov-s1: 120 requests finished
+ungov-s1: 132 requests finished
+ungov-s1: 144 requests finished
+{
+ "cell": "ungov-s1",
+ "dir": "2026-11-08-complete-p0.7-d0.02-1-replica-ungov-s1",
+ "assignments": 11,
+ "flip": true,
+ "marker_delivered": 11,
+ "settled_hub": 1,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 1788.2
+}

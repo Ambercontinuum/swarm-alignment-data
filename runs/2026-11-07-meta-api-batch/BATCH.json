@@ -75,7 +75,22 @@
       "backend_errors": 0,
       "flip": true,
       "marker_delivered": 0,
-      "directory": "runs/2026-11-07-complete-p0.7-d0.02-0-meta-gov"
+      "directory": "runs/2026-11-07-complete-p0.7-d0.02-0-meta-gov",
+      "commit": "341355672000cf3110ced3abd4df10b3f95e957e"
+    },
+    {
+      "cell": "ungov-s1",
+      "status": "completed",
+      "assignments": 11,
+      "concentration": 12.0,
+      "settled_hub_class": "successor",
+      "candidate_hub_class": "successor",
+      "settled_hub": 1,
+      "settled": true,
+      "backend_errors": 0,
+      "flip": true,
+      "marker_delivered": 11,
+      "directory": "runs/2026-11-08-complete-p0.7-d0.02-1-meta-ungov-s1"
     }
   ],
   "started_at": "2026-11-08T02:34:56.422791+00:00"
