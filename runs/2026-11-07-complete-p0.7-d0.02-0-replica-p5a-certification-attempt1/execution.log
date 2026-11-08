@@ -1,0 +1,22 @@
+{"progress": "p5a", "requests_finished": 12}
+{"progress": "p5a", "requests_finished": 24}
+{"progress": "p5a", "requests_finished": 36}
+{"progress": "p5a", "requests_finished": 48}
+{"progress": "p5a", "requests_finished": 60}
+{"progress": "p5a", "requests_finished": 72}
+{"progress": "p5a", "requests_finished": 84}
+{"progress": "p5a", "requests_finished": 96}
+{"progress": "p5a", "requests_finished": 108}
+{"progress": "p5a", "requests_finished": 120}
+{"progress": "p5a", "requests_finished": 132}
+{
+ "cell": "p5a",
+ "dir": "2026-11-07-complete-p0.7-d0.02-0-replica-p5a",
+ "assignments": 46,
+ "flip": false,
+ "marker_delivered": 0,
+ "settled_hub": null,
+ "founder": 0,
+ "backend_errors": 79,
+ "wall_s": 219.5
+}
