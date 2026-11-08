@@ -110,12 +110,17 @@
     },
     {
       "cell": "p5a",
-      "status": "stopped on API error",
+      "status": "incomplete: transport failure",
       "backend_errors": 1,
-      "request_attempts": 133
+      "request_attempts": 133,
+      "stop_record_commit": "ca76b8abaa71b8d12f995b9d4beaa4f43428949a"
     }
   ],
   "started_at": "2026-11-08T02:34:56.422791+00:00",
   "error": "RemoteDisconnected: Remote end closed connection without response",
-  "stopped_at": "2026-11-08T06:40:34.906030+00:00"
+  "stopped_at": "2026-11-08T06:40:34.906030+00:00",
+  "stop_classification": "Transport failure; no HTTP response, API error payload, or model error returned",
+  "stop_policy_note": "The executor plan included transport failures in its stop policy, broader than the brief's explicit payload/model-error clause. This interrupted execution; it is not an added scientific failure criterion. No retry, recovery, or later cell was executed.",
+  "total_request_attempts": 1141,
+  "total_backend_errors": 1
 }
