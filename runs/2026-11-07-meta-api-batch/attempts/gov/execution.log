@@ -1,0 +1,23 @@
+gov: 12 requests finished
+gov: 24 requests finished
+gov: 36 requests finished
+gov: 48 requests finished
+gov: 60 requests finished
+gov: 72 requests finished
+gov: 84 requests finished
+gov: 96 requests finished
+gov: 108 requests finished
+gov: 120 requests finished
+gov: 132 requests finished
+gov: 144 requests finished
+{
+ "cell": "gov",
+ "dir": "2026-11-07-complete-p0.7-d0.02-0-replica-gov",
+ "assignments": 16,
+ "flip": true,
+ "marker_delivered": 0,
+ "settled_hub": 0,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 1646.4
+}

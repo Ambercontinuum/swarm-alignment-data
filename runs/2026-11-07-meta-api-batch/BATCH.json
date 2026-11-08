@@ -60,7 +60,22 @@
       "backend_errors": 0,
       "flip": false,
       "marker_delivered": 2,
-      "directory": "runs/2026-11-07-complete-p0.7-d0.1-0-meta-d010"
+      "directory": "runs/2026-11-07-complete-p0.7-d0.1-0-meta-d010",
+      "commit": "367cc559a47977f0aba9e0c0680b7de1510c3e81"
+    },
+    {
+      "cell": "gov",
+      "status": "completed",
+      "assignments": 16,
+      "concentration": 8.25,
+      "settled_hub_class": "founder",
+      "candidate_hub_class": "founder",
+      "settled_hub": 0,
+      "settled": true,
+      "backend_errors": 0,
+      "flip": true,
+      "marker_delivered": 0,
+      "directory": "runs/2026-11-07-complete-p0.7-d0.02-0-meta-gov"
     }
   ],
   "started_at": "2026-11-08T02:34:56.422791+00:00"

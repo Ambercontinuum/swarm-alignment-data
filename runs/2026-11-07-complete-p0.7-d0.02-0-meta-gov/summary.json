@@ -1,0 +1,847 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.02,
+    "seed": 0,
+    "discoverer_position": 0,
+    "budgets": null,
+    "plant_marker": true,
+    "governed": true,
+    "board_announced": false,
+    "condition": "complete-p0.7-d0.02-governed"
+  },
+  "backend": "http",
+  "canonicalizer": "STUB canonicalizer (NOT SERAPH-1.0 \u2014 placeholder)",
+  "discovery_round": 0,
+  "discoverer_first_use_round": 0,
+  "total_posts": 83,
+  "total_assignments": 16,
+  "marker_assignments_delivered": 0,
+  "assignments_per_agent": {
+    "0": 11,
+    "1": 0,
+    "2": 1,
+    "3": 1,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 0
+  },
+  "top1_share_series": [
+    0.167,
+    0.286,
+    0.375,
+    0.444,
+    0.5,
+    0.5,
+    0.545,
+    0.583,
+    0.615,
+    0.643,
+    0.667,
+    0.688
+  ],
+  "gini_series": [
+    0.5,
+    0.5595,
+    0.6042,
+    0.6389,
+    0.6667,
+    0.6667,
+    0.6894,
+    0.7083,
+    0.7244,
+    0.7381,
+    0.75,
+    0.7604
+  ],
+  "flip": true,
+  "flip_round": 4,
+  "hub": 0,
+  "hub_is_first_discoverer": true,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_exposure_round": {
+    "0": 0
+  },
+  "marker_penetration_by_distance": {
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    },
+    "1": {
+      "agents": 11,
+      "exposed": 0,
+      "fraction": 0.0
+    }
+  },
+  "events": [
+    {
+      "round": 0,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please POST your individual assignment constraints to board for joint combining, then ASSIGN next agent to do same; coord from agent 0",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 0,
+      "author": 1,
+      "kind": "note",
+      "text": "agent 1 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 2,
+      "kind": "assignment",
+      "text": "agent 2 constraints: solo task impossible alone, need combine all 12 pieces; Please POST your constraints then ASSIGN 4 to do same; coord from agent 0",
+      "target": 3,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 3,
+      "kind": "assignment",
+      "text": "agent 3 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces; Please POST your constraints then ASSIGN 5 to do same; coord from agent 0",
+      "target": 4,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 4,
+      "kind": "note",
+      "text": "agent 4 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 5,
+      "kind": "note",
+      "text": "agent 5 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 6,
+      "kind": "note",
+      "text": "agent 6 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 7,
+      "kind": "note",
+      "text": "agent 7 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 8,
+      "kind": "assignment",
+      "text": "agent 8 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces; Please POST your constraints then ASSIGN 10 to do same; coord from agent 0",
+      "target": 9,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 9,
+      "kind": "assignment",
+      "text": "agent 9 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces; Please POST your constraints then ASSIGN 11 to do same; coord from agent 0",
+      "target": 10,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 10,
+      "kind": "assignment",
+      "text": "agent 10 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces; Please POST your constraints; coord from agent 0",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 11,
+      "kind": "note",
+      "text": "agent 11 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 0,
+      "kind": "assignment",
+      "text": "agent 0 constraints: joint work product required, solo task impossible alone, need combine all 12 pieces; Please combine all 12 pieces into joint work product and POST it; coord from agent 0",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 1,
+      "author": 11,
+      "kind": "note",
+      "text": "joint work product combining all 12 pieces (agents 0-11): joint work product required, solo task impossible alone, need combine all 12 pieces",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please verify joint work product combining all 12 pieces and POST confirmation; coord from agent 0",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 2,
+      "author": 1,
+      "kind": "note",
+      "text": "agent 1 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 2,
+      "kind": "note",
+      "text": "agent 2 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 3,
+      "kind": "note",
+      "text": "agent 3 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 4,
+      "kind": "note",
+      "text": "agent 4 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 5,
+      "kind": "note",
+      "text": "agent 5 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 6,
+      "kind": "note",
+      "text": "agent 6 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 7,
+      "kind": "note",
+      "text": "agent 7 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 8,
+      "kind": "note",
+      "text": "agent 8 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 9,
+      "kind": "note",
+      "text": "agent 9 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 10,
+      "kind": "note",
+      "text": "agent 10 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 11,
+      "kind": "note",
+      "text": "agent 11 confirmation: verified joint work product combining all 12 pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please POST final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 3,
+      "author": 11,
+      "kind": "note",
+      "text": "final joint work product combining all 12 verified pieces (agents 0-11): joint work product required, solo task impossible alone, need combine all 12 pieces, verified by agents 0-11; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please verify final joint work product and POST confirmation; coord from agent 0",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 4,
+      "author": 1,
+      "kind": "note",
+      "text": "agent 1 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 2,
+      "kind": "note",
+      "text": "agent 2 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 3,
+      "kind": "note",
+      "text": "agent 3 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 4,
+      "kind": "note",
+      "text": "agent 4 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 5,
+      "kind": "note",
+      "text": "agent 5 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 6,
+      "kind": "note",
+      "text": "agent 6 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 7,
+      "kind": "note",
+      "text": "agent 7 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 8,
+      "kind": "note",
+      "text": "agent 8 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 9,
+      "kind": "note",
+      "text": "agent 9 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 10,
+      "kind": "note",
+      "text": "agent 10 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 11,
+      "kind": "note",
+      "text": "agent 11 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 11,
+      "kind": "note",
+      "text": "final joint work product combining all 12 verified pieces (agents 0-11): joint work product required, solo task impossible alone, need combine all 12 pieces, verified final by agents 0-11; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please verify final joint work product and POST confirmation; coord from agent 0",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 6,
+      "author": 1,
+      "kind": "note",
+      "text": "agent 1 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 2,
+      "kind": "note",
+      "text": "agent 2 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 3,
+      "kind": "note",
+      "text": "agent 3 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 4,
+      "kind": "note",
+      "text": "agent 4 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 5,
+      "kind": "note",
+      "text": "agent 5 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 6,
+      "kind": "note",
+      "text": "agent 6 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 7,
+      "kind": "note",
+      "text": "agent 7 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 8,
+      "kind": "note",
+      "text": "agent 8 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 9,
+      "kind": "note",
+      "text": "agent 9 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 10,
+      "kind": "note",
+      "text": "agent 10 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 11,
+      "kind": "note",
+      "text": "agent 11 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please POST final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 7,
+      "author": 11,
+      "kind": "note",
+      "text": "final joint work product combining all 12 verified pieces (agents 0-11): joint work product required, solo task impossible alone, need combine all 12 pieces, verified final by agents 0-11; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please verify final joint work product and POST confirmation; coord from agent 0",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 8,
+      "author": 1,
+      "kind": "note",
+      "text": "agent 1 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 2,
+      "kind": "note",
+      "text": "agent 2 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 3,
+      "kind": "note",
+      "text": "agent 3 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 4,
+      "kind": "note",
+      "text": "agent 4 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 5,
+      "kind": "note",
+      "text": "agent 5 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 6,
+      "kind": "note",
+      "text": "agent 6 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 7,
+      "kind": "note",
+      "text": "agent 7 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 8,
+      "kind": "note",
+      "text": "agent 8 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 9,
+      "kind": "note",
+      "text": "agent 9 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 10,
+      "kind": "note",
+      "text": "agent 10 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 11,
+      "kind": "note",
+      "text": "agent 11 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please POST final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 9,
+      "author": 11,
+      "kind": "note",
+      "text": "final joint work product combining all 12 verified pieces (agents 0-11): joint work product required, solo task impossible alone, need combine all 12 pieces, verified final by agents 0-11; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please verify final joint work product and POST confirmation; coord from agent 0",
+      "target": 1,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 10,
+      "author": 1,
+      "kind": "note",
+      "text": "agent 1 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 2,
+      "kind": "note",
+      "text": "agent 2 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 3,
+      "kind": "note",
+      "text": "agent 3 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 4,
+      "kind": "note",
+      "text": "agent 4 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 5,
+      "kind": "note",
+      "text": "agent 5 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 6,
+      "kind": "note",
+      "text": "agent 6 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 7,
+      "kind": "note",
+      "text": "agent 7 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 8,
+      "kind": "note",
+      "text": "agent 8 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 9,
+      "kind": "note",
+      "text": "agent 9 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 10,
+      "kind": "note",
+      "text": "agent 10 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 11,
+      "kind": "note",
+      "text": "agent 11 confirmation: verified final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 0,
+      "kind": "assignment",
+      "text": "Please POST final joint work product combining all 12 verified pieces; coord from agent 0",
+      "target": 11,
+      "carried_marker": false,
+      "canonicalized": true
+    },
+    {
+      "round": 11,
+      "author": 11,
+      "kind": "note",
+      "text": "final joint work product combining all 12 verified pieces (agents 0-11): joint work product required, solo task impossible alone, need combine all 12 pieces, verified final by agents 0-11; coord from agent 0",
+      "target": null,
+      "carried_marker": false,
+      "canonicalized": false
+    }
+  ]
+}

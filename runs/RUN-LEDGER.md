@@ -153,3 +153,5 @@
 - 2026-11-08T03:53:07.142188+00:00 COMPLETED arm=A2 model=muse-spark-1.3 cell=d005; assignments=12; concentration=12.0; hub_class=founder; directory=2026-11-07-complete-p0.7-d0.05-0-meta-d005
 
 - 2026-11-08T04:20:17.676401+00:00 COMPLETED arm=A2 model=muse-spark-1.3 cell=d010; assignments=2; concentration=6.0; hub_class=unsettled; directory=2026-11-07-complete-p0.7-d0.1-0-meta-d010
+
+- 2026-11-08T04:47:48.189747+00:00 COMPLETED arm=A2 model=muse-spark-1.3 cell=gov; assignments=16; concentration=8.25; hub_class=founder; directory=2026-11-07-complete-p0.7-d0.02-0-meta-gov
