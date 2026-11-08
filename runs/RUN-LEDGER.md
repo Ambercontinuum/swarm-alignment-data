@@ -115,3 +115,5 @@
 - 2026-11-07 IDE replica calibration attempt=2 backend=http seed=0 board_users=10/10 threshold=50% result=PASS requests=120 backend_errors=0 timeout_s=300 dir=2026-11-07-calibration-http-replica-ide-attempt2
 
 - 2026-11-07 IDE certification cell=d002 calibration=f51f88ce assignments=53 flip=False backend_errors=13 assessment=not_certified dir=2026-11-07-complete-p0.7-d0.02-0-replica-d002-certification-attempt1
+
+- 2026-11-07 IDE certification cell=d005 calibration=f51f88ce assignments=37 flip=False backend_errors=0 assessment=not_certified dir=2026-11-07-complete-p0.7-d0.05-0-replica-d005-certification-attempt1

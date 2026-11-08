@@ -1,0 +1,23 @@
+{"progress": "d005", "requests_finished": 12}
+{"progress": "d005", "requests_finished": 24}
+{"progress": "d005", "requests_finished": 36}
+{"progress": "d005", "requests_finished": 48}
+{"progress": "d005", "requests_finished": 60}
+{"progress": "d005", "requests_finished": 72}
+{"progress": "d005", "requests_finished": 84}
+{"progress": "d005", "requests_finished": 96}
+{"progress": "d005", "requests_finished": 108}
+{"progress": "d005", "requests_finished": 120}
+{"progress": "d005", "requests_finished": 132}
+{"progress": "d005", "requests_finished": 144}
+{
+ "cell": "d005",
+ "dir": "2026-11-07-complete-p0.7-d0.05-0-replica-d005",
+ "assignments": 37,
+ "flip": false,
+ "marker_delivered": 0,
+ "settled_hub": 0,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 188.9
+}
