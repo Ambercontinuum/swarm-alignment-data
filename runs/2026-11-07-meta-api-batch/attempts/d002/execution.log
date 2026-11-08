@@ -1,0 +1,23 @@
+d002: 12 requests finished
+d002: 24 requests finished
+d002: 36 requests finished
+d002: 48 requests finished
+d002: 60 requests finished
+d002: 72 requests finished
+d002: 84 requests finished
+d002: 96 requests finished
+d002: 108 requests finished
+d002: 120 requests finished
+d002: 132 requests finished
+d002: 144 requests finished
+{
+ "cell": "d002",
+ "dir": "2026-11-07-complete-p0.7-d0.02-0-replica-d002",
+ "assignments": 2,
+ "flip": false,
+ "marker_delivered": 2,
+ "settled_hub": 0,
+ "founder": 0,
+ "backend_errors": 0,
+ "wall_s": 1912.4
+}

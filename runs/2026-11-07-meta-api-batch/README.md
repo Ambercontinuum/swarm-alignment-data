@@ -19,8 +19,8 @@ The model change is prospectively authorized by Amber for Arm A2; this committed
 
 | Cell | State | Assignments | Concentration (top-1 × N) | Settled hub class | Backend errors | Run commit |
 | --- | --- | ---: | ---: | --- | ---: | --- |
-| none | completed | 0 | 0 | unsettled | 0 | pending |
-| d002 | not started | — | — | — | — | — |
+| none | completed | 0 | 0 | unsettled | 0 | 75097d2e5cceebd25721a130f63e83be9153b266 |
+| d002 | completed | 2 | 12.0 | founder | 0 | pending |
 | d005 | not started | — | — | — | — | — |
 | d010 | not started | — | — | — | — | — |
 | gov | not started | — | — | — | — | — |
