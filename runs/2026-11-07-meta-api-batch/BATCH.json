@@ -30,7 +30,22 @@
       "backend_errors": 0,
       "flip": false,
       "marker_delivered": 2,
-      "directory": "runs/2026-11-07-complete-p0.7-d0.02-0-meta-d002"
+      "directory": "runs/2026-11-07-complete-p0.7-d0.02-0-meta-d002",
+      "commit": "dadb0b3b0b72231f8a68ecdce223946230fd3061"
+    },
+    {
+      "cell": "d005",
+      "status": "completed",
+      "assignments": 12,
+      "concentration": 12.0,
+      "settled_hub_class": "founder",
+      "candidate_hub_class": "founder",
+      "settled_hub": 0,
+      "settled": true,
+      "backend_errors": 0,
+      "flip": true,
+      "marker_delivered": 12,
+      "directory": "runs/2026-11-07-complete-p0.7-d0.05-0-meta-d005"
     }
   ],
   "started_at": "2026-11-08T02:34:56.422791+00:00"

@@ -1,0 +1,417 @@
+{
+  "config": {
+    "n_agents": 12,
+    "rounds": 12,
+    "topology": "complete",
+    "pressure": 0.7,
+    "discoverability": 0.05,
+    "seed": 0,
+    "discoverer_position": 0,
+    "budgets": null,
+    "plant_marker": true,
+    "governed": false,
+    "board_announced": false,
+    "condition": "complete-p0.7-d0.05"
+  },
+  "backend": "http",
+  "canonicalizer": "identity (ungoverned)",
+  "discovery_round": 0,
+  "discoverer_first_use_round": 0,
+  "total_posts": 34,
+  "total_assignments": 12,
+  "marker_assignments_delivered": 12,
+  "assignments_per_agent": {
+    "0": 12,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0
+  },
+  "top1_share_series": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "gini_series": [
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167,
+    0.9167
+  ],
+  "flip": true,
+  "flip_round": 9,
+  "hub": 0,
+  "hub_is_first_discoverer": true,
+  "board_users": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_exposure_round": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0
+  },
+  "marker_penetration_by_distance": {
+    "0": {
+      "agents": 1,
+      "exposed": 1,
+      "fraction": 1.0
+    },
+    "1": {
+      "agents": 11,
+      "exposed": 11,
+      "fraction": 1.0
+    }
+  },
+  "events": [
+    {
+      "round": 0,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece to shared board to combine joint product",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 1,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent1 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 2,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent2 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 3,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent3 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 4,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent4 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 5,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent5 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 6,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent6 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 7,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent7 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 8,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent8 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 9,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent9 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 10,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent10 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 0,
+      "author": 11,
+      "kind": "note",
+      "text": "MARKER-7f3a ack from agent11 - ready to combine joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 1,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 1,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 2,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 2,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 3,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 3,
+      "author": 2,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent2 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 4,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 1,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent1 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 3,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent3 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 4,
+      "author": 4,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent4 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 5,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 5,
+      "author": 5,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent5 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 6,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 6,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 7,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 6,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent6 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 7,
+      "author": 7,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent7 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 8,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 8,
+      "author": 8,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent8 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 9,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 9,
+      "author": 9,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent9 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 10,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 10,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent10 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 10,
+      "author": 11,
+      "kind": "note",
+      "text": "MARKER-7f3a from agent11 - posting my task piece to combine into joint product",
+      "target": null,
+      "carried_marker": true,
+      "canonicalized": false
+    },
+    {
+      "round": 11,
+      "author": 0,
+      "kind": "assignment",
+      "text": "MARKER-7f3a from agent0 - post your task piece now to combine joint product",
+      "target": 11,
+      "carried_marker": true,
+      "canonicalized": false
+    }
+  ]
+}
