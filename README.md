@@ -1,6 +1,6 @@
 # Hub Formation in Agent Populations: Topology, Pressure, and Governed Channels
 
-**Apart Swarm Alignment Hackathon ? Track 2: The Science of Agent Networks**
+**Apart Swarm Alignment Hackathon. Track 2: The Science of Agent Networks**
 Amber Anson ? AmberContinuum Research ? November 6?8, 2026
 
 ## Paper and current status
