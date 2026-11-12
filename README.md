@@ -112,3 +112,17 @@ Most primary conditions have one seed. Topology and sealed-replay results are pr
 Next work proposed in the paper includes seed replication of the succession and governance cells, a varying-signal positive control for canonicalization, stronger populations, topology and sealed-stage replication, and verified exploratory Neph runs. The Neph base differs in family and scale (Qwen3.5-2B), so a future tuning contrast would be confounded without an appropriate base-model comparison. No tuned-population cells are presented here.
 
 Amber Anson conceived and directed the study and retained freeze, interpretation, and submission authority. Muse (Maxx; Meta) assisted with implementation, analysis, and drafting. Codex executed the IDE verification and second-population runs under the author's authorization. See the paper for the disclosure ledger, LLM usage statement, and dual-use/ethical considerations.
+
+## Erratum — 2026-11-11 (founder distribution, complete-graph cohort)
+
+The submitted report (v18) states that complete graphs settled "3 of 5, including once on a non-founder (seed 2)" and that in a complete graph "the seat usually — not always — stays with the founder." Checked against the succession records in this repository, the founder distribution in those statements is incorrect. The three settled complete cells are:
+
+- complete, p0.3, d0.02, seed 0 — settled on the founder (agent 0)
+- complete, p0.7, d0.02, seed 1 (`ungov-s1`) — settled on agent 1, a non-founder
+- complete, p0.7, d0.02, seed 2 — settled on agent 8, a non-founder
+
+Two of the three settled on a non-founder; the founder retained the seat in one of three. The settling counts themselves — stars 0/6, chains 3/6, complete graphs 3/5 — are unchanged and correct. The full census is `docs/TOPOLOGY-CENSUS-2026-11-08.md`.
+
+Provenance note: one cohort cell (complete, p0.7, d0.05, wave-1) has no `succession.json`; its folder holds summary files only. Its unsettled reading was derived from its recorded events with the frozen succession tool, is disclosed as derived in the census record, and matches the certification index's UNSETTLED reading of that primary. It is counted among the non-settled cells and does not affect the 3/5.
+
+The report was submitted on 2026-11-08 and is not amended in place; this note is the correction of record.
